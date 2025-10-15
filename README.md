@@ -7,31 +7,31 @@
 
 ---
 
-## 🎯 Conceito
+## Conceito
 
 **Título Provisório:** Dealer’s TD  
 **Gênero:** Tower Defense  
 
 **Resumo:**  
-O jogador gerencia uma **concessionária**, transformando **funcionários e departamentos** em torres de defesa para sobreviver a ondas de **clientes impacientes, fiscais e sabotadores** — tudo com uma **dose de humor satírico** e **estratégia corporativa**.
+O jogador gerencia uma **concessionária**, transformando **funcionários e departamentos** em torres de defesa para sobreviver a ondas de **clientes impacientes, fiscais e sabotadores** — tudo com um **pouco de humor satírico** e **estratégia corporativa**.
 
 ---
 
-## 🧱 Pilares de Design
+## Design
 
 - **Humor Satírico:** Paródia da vida corporativa e do atendimento ao cliente.  
-- **Estratégia Acessível, Profundidade Oculta:** Fácil de entender, mas com sinergias complexas entre as torres.  
+- **Estratégia Acessível, Profundidade Oculta:** Fácil de entender, mas com sinergias entre as torres.  
 - **Caos Gerenciável:** O objetivo não é evitar o caos, mas controlá-lo e lucrar com ele.
 
 ---
 
-## 🔁 Gameplay Loop
+## Gameplay Loop
 
 O jogo alterna entre duas fases principais:
 
 ```mermaid
 graph TD
-    A[Fase de Gestão] --> C["Pressiona 'Abrir as Portas!'"] --> B[Fase de Caos]
+    A[Fase de Gerenciamento] --> C["Pressiona 'Abrir as Portas! (Começar Wave)'"] --> B[Fase de Caos]
     B --> A
 
     subgraph A [Fase de Gestão]
@@ -41,18 +41,18 @@ graph TD
 
     subgraph B [Fase de Caos]
         direction LR
-        B1(Inimigos Avançam) --> B2(Ativar Habilidades)
+        B1(Inimigos Avançam) --> B2(Ativar Skills)
     end
 ```
 
-**Fase de Gestão:** Construção e posicionamento de torres, upgrades estratégicos e planejamento financeiro.  
+**Fase de Gerenciamento:** Construção e posicionamento de torres, upgrades estratégicos e planejamento financeiro.  
 **Fase de Caos:** Inimigos avançam enquanto o jogador utiliza habilidades e defesas automáticas.
-
+**Resumo:** A Base seria essa, mas como em TD existe SKIP Wave, será possivel ativar **Auto Skip** ou jogar em forma mais controlada conforme mostrado acima. 
 ---
 
-## ⚙️ Mecânicas Principais
+## Mecânicas Principais
 
-### 🏗️ 4.1 Torres (Estações de Defesa)
+### 4.1 Torres (Estações de Defesa)
 Cada torre é definida por um `TowerResource.tres`, permitindo balanceamento fora do código.
 
 | Estação | Descrição | Mecânica | Evolução (Exemplo) |
@@ -66,7 +66,7 @@ Cada torre é definida por um `TowerResource.tres`, permitindo balanceamento for
 
 ---
 
-### 💼 4.2 Inimigos (Problemas Cotidianos)
+### 4.2 Inimigos (Problemas Cotidianos)
 Cada inimigo é definido por um `EnemyResource.tres`.
 
 | Inimigo | Habilidade Especial | Fraqueza / Interação Estratégica |
@@ -79,18 +79,18 @@ Cada inimigo é definido por um `EnemyResource.tres`.
 
 ---
 
-### 💰 4.3 Economia e Progressão
+### 4.3 Economia e Progressão
 - **Renda:** Comissões por derrotar inimigos, além de bônus de consórcios e juros do Financeiro.  
 - **Despesa:** Custos de construção, manutenção e upgrades.
 
 ---
 
-## 🛠️ Arquitetura Técnica
+## Arquitetura Técnica
 
-### 📁 5.1 Organização de Resources
+### 5.1 Organização de Resources
 Arquitetura centralizada em `res://resources/` com subpastas para **towers**, **enemies**, **waves**, etc.
 
-### 🔔 5.2 Comunicação por Sinais
+### 5.2 Comunicação por Sinais
 Sistema **desacoplado e orientado a eventos**.  
 Torres e inimigos não interagem diretamente — apenas **emitem sinais** globais.
 
@@ -100,7 +100,7 @@ Torres e inimigos não interagem diretamente — apenas **emitem sinais** globai
 `wave_cleared`  
 `player_money_changed`
 
-### ⚙️ 5.3 Gerenciadores Globais (Autoloads)
+### 5.3 Gerenciadores Globais (Autoloads)
 
 | Nó | Script | Responsabilidade |
 |----|---------|------------------|
@@ -141,7 +141,7 @@ res://
 
 ---
 
-## ⚙️ Fluxo de Jogo Técnico
+## Fluxo de Jogo Técnico
 
 1. `Tower.tscn` lê dados do `TowerResource.tres`.  
 2. `WaveManager` inicia uma onda → `EnemyManager` instancia `Enemy.tscn`.  
@@ -167,28 +167,27 @@ res://
 
 ---
 
-## 🚀 Planejamento Futuro
+## Planejamento
 
-**Alta Prioridade**
+**Prioridade Alta**
 - Sistema de colocação de torres (`tower_placement.gd`)  
 - Interface completa (UI e painel de upgrades)
 
-**Média Prioridade**
+**Prioridade Média**
 - Implementar o `ChaosEngine` com eventos aleatórios  
 - Sistema de salvar/carregar progresso
 
-**Baixa Prioridade**
+**Prioridade Baixa**
 - Power-ups, novos inimigos e mapas temáticos
 
 ---
 
-## 🧠 Desenvolvido com
+## Desenvolvido com
 - **Godot Engine 4.x**
 - **GDScript**
-- **Mermaid.js** (para diagramas no README)
 
 ---
 
-## 📄 Licença
+## Licença
 Este projeto está sob a licença **MIT** — sinta-se livre para estudar, modificar e compartilhar.  
-© 2025 Dealer’s TD Project Team
+© 2025 Bila Bila Games Production
