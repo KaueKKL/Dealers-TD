@@ -34,7 +34,7 @@ graph TD
     A[Fase de Gerenciamento] --> C["Pressiona 'Abrir as Portas! (Começar Wave)'"] --> B[Fase de Caos]
     B --> A
 
-    subgraph A [Fase de Gestão]
+    subgraph A [Fase de Gerenciamento]
         direction LR
         A1(Planejar) --> A2(Construir) --> A3(Fazer Upgrades)
     end
