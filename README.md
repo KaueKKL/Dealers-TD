@@ -188,4 +188,4 @@ res://
 
 ---
 
-© 2025 Bila Bila Games Production
+2025 Bila Bila Games Production ®
