@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="TowerResource" load_steps=2 format=3 uid="uid://cs6ju6065k2xf"]
+
+[ext_resource type="Script" uid="uid://dv8u4mpthseie" path="res://scripts/core/TowerResource.gd" id="1_ea6uh"]
+
+[resource]
+script = ExtResource("1_ea6uh")
+nome = "Oficina"
+descricao = "Descrição da torre."
+mecanica = "Dano físico + lentidão"
+dano = 5.0
+alcance = 50.0
+tempo_ataque = 0.8
+custo_construcao = 120
+metadata/_custom_type_script = "uid://dv8u4mpthseie"

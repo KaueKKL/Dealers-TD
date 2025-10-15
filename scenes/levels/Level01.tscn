@@ -1,0 +1,24 @@
+[gd_scene load_steps=5 format=3 uid="uid://das065afgpotu"]
+
+[ext_resource type="Script" uid="uid://dovq1cr3dbrip" path="res://scripts/gameplay/Level.gd" id="1_i2pqh"]
+[ext_resource type="PackedScene" uid="uid://qsaqcp2ja7qw" path="res://scenes/towers/Tower.tscn" id="2_qtqmo"]
+[ext_resource type="Resource" uid="uid://cs6ju6065k2xf" path="res://resources/towers/oficina.tres" id="3_rd8yo"]
+
+[sub_resource type="Curve2D" id="Curve2D_a01y6"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 64, 128, 0, 0, 0, 0, 256, 128, 0, 0, 0, 0, 288, 128, 0, 0, 0, 0, 273.244, 157.693, 0, 0, 0, 0, 304, 176, 0, 0, 0, 0, 256, 192, 0, 0, 0, 0, 320, 192)
+}
+point_count = 7
+
+[node name="Level01" type="Node2D"]
+script = ExtResource("1_i2pqh")
+
+[node name="EnemyPath" type="Path2D" parent="."]
+curve = SubResource("Curve2D_a01y6")
+
+[node name="SpawnPoint" type="Marker2D" parent="EnemyPath"]
+position = Vector2(64, 128)
+
+[node name="Tower" parent="." instance=ExtResource("2_qtqmo")]
+position = Vector2(224, 176)
+data = ExtResource("3_rd8yo")

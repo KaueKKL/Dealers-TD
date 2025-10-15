@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="EnemyResource" load_steps=2 format=3 uid="uid://cdieyfhgifah5"]
+
+[ext_resource type="Script" uid="uid://cf06nql61bndj" path="res://scripts/core/EnemyResource.gd" id="1_bnyq5"]
+
+[resource]
+script = ExtResource("1_bnyq5")
+nome = "Cliente Impaciente"
+descricao = "Descrição do inimigo."
+vida_maxima = 80.0
+velocidade = 120.0
+recompensa_comissao = 5
+metadata/_custom_type_script = "uid://cf06nql61bndj"
