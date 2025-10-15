@@ -29,21 +29,19 @@ O jogador gerencia uma **concessionária**, transformando **funcionários e depa
 
 O jogo alterna entre duas fases principais:
 
-```mermaid
 graph TD
-    A[Fase de Gestão] --> Pressiona "Abrir as Portas!" --> B[Fase de Caos];
-    B -- Último inimigo derrotado --> A;
+    A[Fase de Gestão] --> B[Fase de Caos]
+    B --> A
 
-    subgraph A [ ]
+    subgraph A [Fase de Gestão]
         direction LR
-        A1(Planejar) --> A2(Construir) --> A3(Fazer Upgrades);
+        A1(Planejar) --> A2(Construir) --> A3(Fazer Upgrades)
     end
 
-    subgraph B [ ]
+    subgraph B [Fase de Caos]
         direction LR
-        B1(Inimigos Avançam) --> B2(Ativar Habilidades);
+        B1(Inimigos Avançam) --> B2(Ativar Habilidades)
     end
-```
 
 **Fase de Gestão:** Construção e posicionamento de torres, upgrades estratégicos e planejamento financeiro.  
 **Fase de Caos:** Inimigos avançam enquanto o jogador utiliza habilidades e defesas automáticas.
