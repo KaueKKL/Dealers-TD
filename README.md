@@ -188,6 +188,4 @@ res://
 
 ---
 
-## Licença
-Este projeto está sob a licença **MIT** — sinta-se livre para estudar, modificar e compartilhar.  
 © 2025 Bila Bila Games Production
