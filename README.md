@@ -31,7 +31,7 @@ O jogo alterna entre duas fases principais:
 
 ```mermaid
 graph TD
-    A[Fase de Gestão] -- Pressiona "Abrir as Portas!" --> B[Fase de Caos];
+    A[Fase de Gestão] --> Pressiona "Abrir as Portas!" --> B[Fase de Caos];
     B -- Último inimigo derrotado --> A;
 
     subgraph A [ ]
