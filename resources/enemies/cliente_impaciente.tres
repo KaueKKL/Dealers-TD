@@ -8,5 +8,5 @@ nome = "Cliente Impaciente"
 descricao = "Descrição do inimigo."
 vida_maxima = 80.0
 velocidade = 120.0
-recompensa_comissao = 5
+recompensa_comissao = 500
 metadata/_custom_type_script = "uid://cf06nql61bndj"

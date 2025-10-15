@@ -33,6 +33,5 @@ func morrer():
 	queue_free()
 
 func chegou_ao_fim():
-	# Lógica para quando o inimigo escapa (será implementada depois)
-	print("Inimigo chegou ao fim!")
+	SignalBus.emit_signal("inimigo_escapou", 1)
 	queue_free()
