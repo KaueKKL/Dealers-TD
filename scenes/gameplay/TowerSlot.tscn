@@ -1,8 +1,11 @@
-[gd_scene load_steps=2 format=3 uid="uid://dwbjr7jee2p31"]
+[gd_scene load_steps=3 format=3 uid="uid://dwbjr7jee2p31"]
+
+[ext_resource type="Script" uid="uid://cv4tyfoqx0qft" path="res://scripts/gameplay/TowerSlot.gd" id="1_fgwun"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_wlspy"]
 
 [node name="TowerSlot" type="Area2D"]
+script = ExtResource("1_fgwun")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("RectangleShape2D_wlspy")

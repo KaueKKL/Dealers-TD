@@ -4,7 +4,9 @@ extends Node
 signal comissao_alterada(novo_valor: int)
 signal vidas_alteradas(novo_valor: int)
 
+
 # Wave
+signal iniciar_wave_solicitado
 signal wave_iniciada(numero_wave: int)
 signal wave_concluida(numero_wave: int)
 signal inimigo_derrotado(inimigo_resource: EnemyResource)

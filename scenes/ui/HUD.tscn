@@ -26,3 +26,22 @@ text = "Comissões: 100"
 [node name="VidasLabel" type="Label" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
 text = "Vidas: 20"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="BotaoConstruirOficina" type="Button" parent="MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+text = "Construir Oficina (50)"
+
+[node name="BotaoIniciarWave" type="Button" parent="MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+text = "Iniciar Wave"
+
+[node name="BotaoVelocidade" type="Button" parent="MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+text = "2x"
+
+[node name="LabelWave" type="Label" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+text = "Wave 01"

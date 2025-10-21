@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="WaveResource" load_steps=4 format=3 uid="uid://btp35i0ekvmpu"]
+
+[ext_resource type="Script" uid="uid://cf06nql61bndj" path="res://scripts/core/EnemyResource.gd" id="1_6hcvt"]
+[ext_resource type="Resource" uid="uid://cdieyfhgifah5" path="res://resources/enemies/cliente_impaciente.tres" id="2_01h02"]
+[ext_resource type="Script" uid="uid://cap8usfffrolu" path="res://scripts/core/WaveResource.gd" id="2_urn48"]
+
+[resource]
+script = ExtResource("2_urn48")
+wave_number = 1
+enemies_to_spawn = Array[ExtResource("1_6hcvt")]([ExtResource("2_01h02"), ExtResource("2_01h02"), ExtResource("2_01h02")])
+spawn_interval = 1.0
+metadata/_custom_type_script = "uid://cap8usfffrolu"
