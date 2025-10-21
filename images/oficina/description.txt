@@ -1,0 +1,11 @@
+Torre Inicial: Estagiário de Oficina "Um jovem entusiasmado, mas inexperiente, que joga chaves de boca com pouca precisão. Causa dano físico baixo e tem uma chance mínima de atordoar inimigos por um breve momento."
+
+Evolução 1: Mecânico Júnior "Mais experiente, o mecânico júnior atira uma variedade de ferramentas com maior precisão e dano. Adquire a habilidade 'Ajuste Rápido', aumentando temporariamente a velocidade de ataque da torre por alguns segundos."
+
+Evolução 2: Mecânico Sênior "Um veterano da oficina que lança peças de motor pesadas e enferrujadas. Causa dano físico massivo e tem uma chance moderada de aplicar 'Ferro Velho', que causa dano em área e retarda inimigos próximos."
+
+Evolução 3: Mestre de Oficina (Mecânico Chefe) "O lendário Mestre de Oficina, capaz de invocar uma barragem de elevadores hidráulicos que esmagam os inimigos. Sua habilidade 'Inspeção Detalhada' revela inimigos furtivos e os deixa vulneráveis a dano aumentado por todas as torres."
+
+Evolução Especial: Pit Stop "Uma versão otimizada da torre da Oficina que foca na velocidade. Dobra a velocidade de ataque da torre e concede uma chance de 'Troca de Pneu', que causa dano extra e empurra os inimigos para trás."
+
+Evolução Especial: Personalizador de Alto Desempenho "O personalizador não apenas causa dano, mas também 'embelezá' os inimigos, aplicando adesivos e spoilers que os deixam mais lentos e os fazem brilhar, tornando-os alvos mais fáceis para outras torres. Pode também aplicar 'Óxido Nitroso' em aliados, aumentando a velocidade de ataque e movimento de torres próximas temporariamente."

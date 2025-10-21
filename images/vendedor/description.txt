@@ -1,0 +1,17 @@
+Base Tower: The Pitchman
+Description: A lively booth run by persuasive vendors who attack enemies through conversation, causing psychological damage and a chance to convert them into temporary allies. The tower’s charm grows with experience, turning smooth talk into a powerful weapon.
+
+Evolution 1: Street Vendor
+Description: Masters of the hustle, the vendors now use quick talk and irresistible deals amplified by a simple sound system to wear down enemy morale. Their words deal increased psychological damage and have a higher chance to confuse weaker foes, causing brief hesitation before they continue advancing.
+
+Evolution 2: Sound System Salesman
+Description: The persuasive pitch is now backed by a serious array of powerful loudspeakers. The sheer volume and relentless pressure of the sales talk create sonic waves of psychological torment, increasing the damage radius and significantly raising the chance of converting multiple enemies at once.
+
+Evolution 3: Sound Car Guru
+Description: The vendor has taken his show on the road! Mounted on a dedicated sound car, the mobile system broadcasts the ultimate closing arguments. The damage is now heavy and deals Area of Effect (AoE) psychological damage, with conversion chances affecting even the most armored or stoic enemy types.
+
+Evolution 4: Telemarketing Manager
+Description: Charm goes corporate. Operating from an efficient telemarketing office, the vendor coordinates a team that attacks enemies with a massive volume of highly personalized cold calls. This evolution bypasses physical defenses entirely, dealing consistent, calculated psychological damage to the entire lane, focusing on a high confusion rate.
+
+Evolution 5: Influencer
+Description: The ultimate evolution of persuasion. The vendor has achieved celebrity status, using a personal brand and social media clout to overwhelm enemies with targeted content. Surrounded by zealous fans, the tower's conversion rate is drastically increased, turning a percentage of all incoming enemies into loyal, temporary bodyguards.
