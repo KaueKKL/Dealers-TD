@@ -1,3 +1,4 @@
+# scripts/gameplay/Enemy.gd
 class_name Enemy
 extends PathFollow2D
 
@@ -6,19 +7,19 @@ extends PathFollow2D
 var vida_atual: float
 
 func _ready():
-	add_to_group("enemies") # Adiciona este nó ao grupo "enemies"
 	if not data:
 		push_error("Inimigo não tem um arquivo de dados (EnemyResource) atribuído!")
-		queue_free() # Segurança em falta de dados
+		queue_free()
 		return
-
-	vida_atual = data.vida_maxima
 	
+	vida_atual = data.vida_maxima
+	add_to_group("enemies") # Importante para a detecção da torre
 
 func _process(delta: float):
-	if not data: return # Não faz nada se não houver dados
+	if not data: return
 
 	set_progress(get_progress() + data.velocidade * delta)
+
 	if get_progress_ratio() >= 1.0:
 		chegou_ao_fim()
 
@@ -28,7 +29,7 @@ func take_damage(dano: float):
 		morrer()
 
 func morrer():
-	# Avisa a todos que estão ouvindo que este inimigo foi derrotado
+	# Esta linha é vital para o WaveManager
 	SignalBus.emit_signal("inimigo_derrotado", data)
 	queue_free()
 

@@ -18,9 +18,9 @@ config/icon="res://icon.svg"
 
 PlayerState="*res://scripts/autoload/PlayerState.gd"
 SignalBus="*res://scripts/autoload/SignalBus.gd"
-WaveManager="*res://scripts/autoload/WaveManager.gd"
 TowerManager="*res://scripts/autoload/TowerManager.gd"
 GameState="*res://scripts/autoload/GameState.gd"
+WaveManager="*res://scenes/managers/WaveManager.tscn"
 
 [layer_names]
 

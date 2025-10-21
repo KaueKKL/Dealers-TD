@@ -98,10 +98,8 @@ func construir_torre(posicao: Vector2):
 	if tower_container:
 		tower_container.add_child(nova_torre)
 	else:
-		# Fallback caso o contêiner não tenha sido configurado
 		get_tree().current_scene.add_child(nova_torre)
 
 	print("Torre construída com sucesso!")
 	
-	# Opcional: descomente a linha abaixo para sair do modo de construção após cada torre.
 	cancelar_posicionamento()

@@ -7,6 +7,6 @@
 [resource]
 script = ExtResource("2_urn48")
 wave_number = 1
-enemies_to_spawn = Array[ExtResource("1_6hcvt")]([ExtResource("2_01h02"), ExtResource("2_01h02"), ExtResource("2_01h02")])
-spawn_interval = 1.0
+enemies_to_spawn = Array[ExtResource("1_6hcvt")]([ExtResource("2_01h02"), ExtResource("2_01h02"), ExtResource("2_01h02"), ExtResource("2_01h02"), ExtResource("2_01h02"), ExtResource("2_01h02")])
+spawn_interval = 0.8
 metadata/_custom_type_script = "uid://cap8usfffrolu"

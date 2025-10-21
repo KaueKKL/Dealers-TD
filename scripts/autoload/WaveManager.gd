@@ -7,7 +7,6 @@ var enemy_path: Path2D
 var spawn_point: Marker2D
 
 # --- Dados das Ondas ---
-# Arraste seus arquivos wave_01.tres e wave_02.tres aqui pelo Inspetor
 @export var predefined_waves: Array[WaveResource]
 
 var current_wave_index: int = -1
@@ -28,67 +27,76 @@ func _ready():
 
 # Função para o nível se "registrar"
 func set_current_level_path(path: Path2D, spawn: Marker2D):
-	enemy_path = path
-	spawn_point = spawn
+	# --- DIAGNÓSTICO ---
+	if path == null:
+		push_error("WaveManager: Level.gd me enviou um enemy_path NULO!")
+	else:
+		enemy_path = path
+		
+	if spawn == null:
+		push_error("WaveManager: Level.gd me enviou um spawn_point NULO!")
+	else:
+		spawn_point = spawn
+	
+	if enemy_path and spawn_point:
+		print("WaveManager: Caminho e spawn configurados COM SUCESSO.")
+	# --- FIM DO DIAGNÓSTICO ---
 
 # --- Lógica de Controle da Onda ---
 
 func _on_iniciar_wave_solicitado():
+	print(">>> WAVEMANAGER: Recebi o sinal para iniciar a wave!") # ADICIONE ESTA LINHA
+
 	current_wave_index += 1
 	if current_wave_index >= predefined_waves.size():
-		print("Todas as waves predefinidas foram concluídas!")
-		# TODO: Implementar lógica de vitória
+		# MENSAGEM DE ERRO MELHORADA
+		print("WaveManager: Nenhuma wave encontrada ou todas concluídas! Verifique o Inspetor da cena WaveManager.tscn.")
+		SignalBus.emit_signal("wave_concluida", current_wave_index)
 		return
 
 	var wave_data: WaveResource = predefined_waves[current_wave_index]
 	
-	# Prepara a fila de spawn
-	enemies_to_spawn_queue = wave_data.enemies_to_spawn.duplicate() # Cria uma cópia
+	enemies_to_spawn_queue = wave_data.enemies_to_spawn.duplicate()
 	spawn_timer.wait_time = wave_data.spawn_interval
 	
 	print("Iniciando Wave:", wave_data.wave_number)
 	SignalBus.emit_signal("wave_iniciada", wave_data.wave_number)
 	
-	# Inicia o processo de spawn
 	spawn_timer.start()
 
-# Chamado a cada X segundos pelo spawn_timer
 func _on_spawn_timer_timeout():
 	if enemies_to_spawn_queue.is_empty():
 		spawn_timer.stop()
-		return # Todos os inimigos desta onda foram spawnados
+		return
 
-	# Pega o próximo inimigo da fila e o spawna
 	var enemy_data: EnemyResource = enemies_to_spawn_queue.pop_front()
 	spawn_enemy(enemy_data)
 	
-	# Reinicia o timer para o próximo inimigo (se ainda houver)
 	if not enemies_to_spawn_queue.is_empty():
 		spawn_timer.start()
 
-# Lógica de spawn (baseada no seu GDD, EnemyManager)
 func spawn_enemy(data: EnemyResource):
+	# --- DIAGNÓSTICO ---
 	if not enemy_path or not spawn_point:
-		push_error("WaveManager não sabe onde spawnar inimigos!")
+		push_error("WaveManager: ERRO EM SPAWN_ENEMY. enemy_path é: " + str(enemy_path) + ", spawn_point é: " + str(spawn_point))
 		return
+	# --- FIM DO DIAGNÓSTICO ---
 
 	var novo_inimigo = cena_inimigo.instantiate()
 	novo_inimigo.data = data
 	novo_inimigo.global_position = spawn_point.global_position
 	enemy_path.add_child(novo_inimigo)
 	
-	enemies_alive += 1 # Rastreia o inimigo vivo
+	enemies_alive += 1
 
 # --- Lógica de Conclusão da Onda ---
 
-# Chamado por "inimigo_derrotado" ou "inimigo_escapou"
 func _on_enemy_removed_from_game(_data_or_damage):
-	enemies_alive -= 1
-	check_wave_cleared()
+	if enemies_alive > 0:
+		enemies_alive -= 1
+		check_wave_cleared()
 
-# Verifica se a onda terminou
 func check_wave_cleared():
-	# A onda só termina se a fila de spawn estiver vazia E não houver mais inimigos vivos
 	if enemies_to_spawn_queue.is_empty() and enemies_alive == 0:
 		print("Wave", current_wave_index + 1, "concluída!")
 		SignalBus.emit_signal("wave_concluida", current_wave_index + 1)

@@ -1,0 +1,10 @@
+[gd_scene load_steps=5 format=3 uid="uid://djeqnpfram02o"]
+
+[ext_resource type="Script" uid="uid://d06uremuj0aj7" path="res://scripts/autoload/WaveManager.gd" id="1_vg8ia"]
+[ext_resource type="Script" uid="uid://cap8usfffrolu" path="res://scripts/core/WaveResource.gd" id="2_mw246"]
+[ext_resource type="Resource" uid="uid://btp35i0ekvmpu" path="res://resources/waves/wave_01.tres" id="3_3ed7e"]
+[ext_resource type="Resource" uid="uid://dhyphvxbt1jis" path="res://resources/waves/wave_02.tres" id="4_3ed7e"]
+
+[node name="WaveManager" type="Node2D"]
+script = ExtResource("1_vg8ia")
+predefined_waves = Array[ExtResource("2_mw246")]([ExtResource("3_3ed7e"), ExtResource("4_3ed7e"), null])
