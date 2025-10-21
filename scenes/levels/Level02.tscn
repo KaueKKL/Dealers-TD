@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://malvu3xf4s41"]
+
+[ext_resource type="Script" uid="uid://dovq1cr3dbrip" path="res://scripts/gameplay/Level.gd" id="1_djykx"]
+
+[sub_resource type="Curve2D" id="Curve2D_30glb"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 0, 128, 0, 0, 0, 0, 384, 128, 0, 0, 0, 0, 384, 64, 0, 0, 0, 0, 320, 64, 0, 0, 0, 0, 320, 128, 0, 0, 0, 0, 320, 192, 0, 0, 0, 0, 320, 256, 0, 0, 0, 0, 256, 256, 0, 0, 0, 0, 256, 192, 0, 0, 0, 0, 512, 192, 0, 0, 0, 0, 512, 96, 0, 0, 0, 0, 576, 96, 0, 0, 0, 0, 576, 256, 0, 0, 0, 0, 384, 256, 0, 0, 0, 0, 384, 384)
+}
+point_count = 15
+
+[node name="Level02" type="Node2D"]
+script = ExtResource("1_djykx")
+
+[node name="EnemyPath" type="Path2D" parent="."]
+position = Vector2(0, -35.2)
+scale = Vector2(1.55, 1.55)
+curve = SubResource("Curve2D_30glb")
+
+[node name="SpawnPoint" type="Marker2D" parent="EnemyPath"]
+position = Vector2(0, 128)
