@@ -1,0 +1,61 @@
+Got it, three core evolutions and then two branching special evolutions from the third stage. This is a great structure!
+
+Let's refine it with that in mind:
+
+Base Tower: "Lava-Rápido Manual" (Manual Car Wash)
+
+Description: A single attendant with a powerful hose sprays down vehicles.
+
+Mechanics: Single-target moderate Water Damage. Small chance to "Atordoar" (Daze - brief movement speed reduction or stun).
+
+Visual idea: A friendly attendant with a standard hose, perhaps a small bucket and sponge.
+
+Core Evolutions (Linear Progression):
+Evolution 1: "Jatos de Pressão Otimizados" (Optimized Pressure Jets)
+
+Description: The attendant upgrades to an industrial-grade pressure washer, delivering concentrated blasts of water.
+
+Mechanics: Increased Water Damage. Higher chance to "Atordoar" or a slightly longer "Atordoar" duration. Might gain a minor "knockback" effect on very small/light enemies.
+
+Visual idea: Attendant with a larger, more powerful pressure washer unit. The water stream looks more focused and forceful.
+
+Evolution 2: "Arcos de Enxágue Automatizados" (Automated Rinse Arches)
+
+Description: Automated arches with multiple nozzles are installed, allowing the tower to hit more targets at once.
+
+Mechanics: Damage now splashes in a small area around the primary target, hitting up to 3 targets. "Atordoar" chance applies to all hit targets. Overall DPS (Damage Per Second) increases due to area coverage.
+
+Visual idea: The attendant is still present, but now there's an overhead arch or two with several nozzles spraying water. The car wash starts to look more industrial.
+
+Evolution 3: "Estação de Limpeza Intensiva" (Intensive Cleaning Station)
+
+Description: The car wash becomes a fully integrated system, applying a pre-wash, main wash, and rinse sequence with high efficiency.
+
+Mechanics: Significantly increased Water Damage. Increased splash radius or number of targets. "Atordoar" effect is more reliable or longer. May also apply a minor "Wet" debuff, increasing subsequent water damage received by enemies.
+
+Visual idea: A larger, enclosed car wash structure with multiple active arches, brushes (if you want to add them), and powerful water jets clearly visible. The attendant might be in a control booth.
+
+Special Evolutions (Branching from Evolution 3):
+Special Evolution A: "Espuma Química Desengordurante" (Degreasing Chemical Foam)
+
+Description: This specialized station focuses on chemical application, dousing enemies in corrosive, sticky foam that strips away defenses.
+
+Mechanics: Damage shifts to a combination of Water Damage and Corrosive Damage over time. Applies a strong "Corrosive Foam" debuff: reduces enemy armor/defense significantly for a duration, and causes a more potent, longer-lasting slow effect than "Atordoar."
+
+Visual idea: The station now features large foam cannons spraying thick, colored foam (e.g., green or yellow) that coats enemies. The water jets are still present for rinsing.
+
+Special Evolution B: "Secagem Turbo de Propulsão" (Turbo Propulsion Drying)
+
+Description: This advanced system uses high-velocity air jets, not just to dry, but to push back and disorient even heavily armored enemies.
+
+Mechanics: High Burst Water Damage (simulating impact of air/water). Primary effect is a strong Knockback and Stun effect that pushes enemies back and temporarily incapacitates them. Less raw damage than the foam path, but superior crowd control.
+
+Visual idea: Instead of foam cannons, large industrial blowers/fans are integrated, creating visible gusts of air/water mist that physically push back targets. Enemies might briefly float or be violently shoved.
+
+This setup gives a clear path of improvement and then two distinct strategic choices for the player:
+
+Chemical Foam: Focus on weakening strong enemies and continuous damage.
+
+Turbo Drying: Focus on crowd control, stunning, and disrupting enemy formations.
+
+What do you think of these options? Does this align better with your game's design?
