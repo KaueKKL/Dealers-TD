@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="TowerResource" load_steps=2 format=3 uid="uid://00danw8uky01"]
+
+[ext_resource type="Script" uid="uid://dv8u4mpthseie" path="res://scripts/core/TowerResource.gd" id="1_erv6w"]
+
+[resource]
+script = ExtResource("1_erv6w")
+nome = "Segurança"
+descricao = "Vigias controlam o perímetro."
+mecanica = "Dano curto + revela furtivos."
+dano = 10.0
+alcance = 100.0
+tempo_ataque = 1.0
+custo_construcao = 100
+metadata/_custom_type_script = "uid://dv8u4mpthseie"

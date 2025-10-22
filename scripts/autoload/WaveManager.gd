@@ -19,6 +19,8 @@ func _ready():
 	SignalBus.connect("iniciar_wave_solicitado", _on_iniciar_wave_solicitado)
 	SignalBus.connect("inimigo_derrotado", _on_enemy_removed_from_game)
 	SignalBus.connect("inimigo_escapou", _on_enemy_removed_from_game)
+	SignalBus.connect("fase_concluida", _on_vitoria)
+	SignalBus.connect("fase_falha", _on_derrota)
 	
 	# Cria o timer de spawn
 	spawn_timer = Timer.new()
@@ -26,8 +28,8 @@ func _ready():
 	add_child(spawn_timer)
 
 # Função para o nível se "registrar"
+# Função para o nível se "registrar"
 func set_current_level_path(path: Path2D, spawn: Marker2D):
-	# --- DIAGNÓSTICO ---
 	if path == null:
 		push_error("WaveManager: Level.gd me enviou um enemy_path NULO!")
 	else:
@@ -45,17 +47,15 @@ func set_current_level_path(path: Path2D, spawn: Marker2D):
 # --- Lógica de Controle da Onda ---
 
 func _on_iniciar_wave_solicitado():
-	print(">>> WAVEMANAGER: Recebi o sinal para iniciar a wave!") # ADICIONE ESTA LINHA
+	print(">>> WAVEMANAGER: Recebi o sinal para iniciar a wave!")
 
 	current_wave_index += 1
 	if current_wave_index >= predefined_waves.size():
-		# MENSAGEM DE ERRO MELHORADA
-		print("WaveManager: Nenhuma wave encontrada ou todas concluídas! Verifique o Inspetor da cena WaveManager.tscn.")
-		SignalBus.emit_signal("wave_concluida", current_wave_index)
+		print("WaveManager: Nenhuma wave restante. VITÓRIA!")
+		SignalBus.emit_signal("vitoria")
 		return
 
 	var wave_data: WaveResource = predefined_waves[current_wave_index]
-	
 	enemies_to_spawn_queue = wave_data.enemies_to_spawn.duplicate()
 	spawn_timer.wait_time = wave_data.spawn_interval
 	
@@ -76,11 +76,9 @@ func _on_spawn_timer_timeout():
 		spawn_timer.start()
 
 func spawn_enemy(data: EnemyResource):
-	# --- DIAGNÓSTICO ---
 	if not enemy_path or not spawn_point:
 		push_error("WaveManager: ERRO EM SPAWN_ENEMY. enemy_path é: " + str(enemy_path) + ", spawn_point é: " + str(spawn_point))
 		return
-	# --- FIM DO DIAGNÓSTICO ---
 
 	var novo_inimigo = cena_inimigo.instantiate()
 	novo_inimigo.data = data
@@ -96,7 +94,26 @@ func _on_enemy_removed_from_game(_data_or_damage):
 		enemies_alive -= 1
 		check_wave_cleared()
 
+# Derrota ocorre quando um inimigo consegue escapar
+func _on_enemy_escaped(_data):
+	enemies_alive -= 1
+	print("WaveManager: Um inimigo escapou! Derrota do jogador.")
+	SignalBus.emit_signal("derrota")
+
 func check_wave_cleared():
 	if enemies_to_spawn_queue.is_empty() and enemies_alive == 0:
 		print("Wave", current_wave_index + 1, "concluída!")
 		SignalBus.emit_signal("wave_concluida", current_wave_index + 1)
+		
+		# Se essa foi a última wave -> vitória
+		if current_wave_index + 1 >= predefined_waves.size():
+			print("Todas as waves concluídas! VITÓRIA!")
+			SignalBus.emit_signal("vitoria")
+
+func _on_vitoria():
+	print("🎉 VITÓRIA! Mostrar tela de sucesso aqui")
+	SceneManager.change_scene("res://scenes/ui/VictoryScreen.tscn")
+
+func _on_derrota():
+	print("💀 DERROTA! Mostrar tela de game over aqui")
+	SceneManager.change_scene("res://scenes/ui/GameOver.tscn")

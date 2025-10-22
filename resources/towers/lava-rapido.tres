@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="TowerResource" load_steps=2 format=3 uid="uid://6gdvqtp1fo0b"]
+
+[ext_resource type="Script" uid="uid://dv8u4mpthseie" path="res://scripts/core/TowerResource.gd" id="1_m5uiy"]
+
+[resource]
+script = ExtResource("1_m5uiy")
+nome = "Lava-Rápido"
+descricao = "Jatos de água."
+mecanica = "Dano leve + chance de atordoar."
+dano = 10.0
+alcance = 200.0
+tempo_ataque = 1.0
+custo_construcao = 100
+metadata/_custom_type_script = "uid://dv8u4mpthseie"

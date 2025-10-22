@@ -12,3 +12,7 @@ signal inimigo_escapou(dano_vida: int)
 signal iniciar_wave_solicitado
 signal wave_iniciada(numero_wave: int)
 signal wave_concluida(numero_wave: int)
+
+# --- Sinais das Waves ---
+signal fase_concluida(concluida: bool)
+signal fase_falha(falhou: bool)

@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://d06uremuj0aj7" path="res://scripts/autoload/WaveManager.gd" id="1_vg8ia"]
 [ext_resource type="Script" uid="uid://cap8usfffrolu" path="res://scripts/core/WaveResource.gd" id="2_mw246"]
-[ext_resource type="Resource" uid="uid://btp35i0ekvmpu" path="res://resources/waves/wave_01.tres" id="3_3ed7e"]
+[ext_resource type="Resource" uid="uid://btp35i0ekvmpu" path="res://resources/waves/Wave_01.tres" id="3_3ed7e"]
 [ext_resource type="Resource" uid="uid://dhyphvxbt1jis" path="res://resources/waves/wave_02.tres" id="4_3ed7e"]
 
 [node name="WaveManager" type="Node2D"]
