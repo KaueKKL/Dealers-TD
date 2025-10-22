@@ -76,6 +76,7 @@ Cada inimigo é definido por um `EnemyResource.tres`.
 | **Concorrente Sabotador** | Furtivo, desativa estações | Revelado pela Segurança |
 | **Carro Defeituoso** | Explode ao ser "vendido" | Precisa ser derrotado à distância |
 | **Transporte de Recall** | Vida alta, reduz lucro | Ideal para combos Lava-Rápido + Oficina |
+| **Ônibus de Fachada** | Vida alta, ao ser destruido libera muitos clientes impacientes| |
 
 ---
 
