@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://bgv1fw5cwohku"
+=======
+uid="uid://fcv5t0be0iru"
+>>>>>>> b1c4677a82e1f90cdd0c7cf1167006bb6086f618
 path="res://.godot/imported/vendedor evolução especial gerente de marketing.png-4d449f52b0e57102a675de5fd652a213.ctex"
 metadata={
 "vram_texture": false

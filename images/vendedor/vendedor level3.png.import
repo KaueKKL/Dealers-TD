@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://dbjsrq072i5rt"
+=======
+uid="uid://cj756budtalh2"
+>>>>>>> b1c4677a82e1f90cdd0c7cf1167006bb6086f618
 path="res://.godot/imported/vendedor level3.png-98a9b71e2e635e96e4c1164e9248e738.ctex"
 metadata={
 "vram_texture": false

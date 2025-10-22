@@ -2,20 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-<<<<<<< HEAD
-uid="uid://b4n5xcrir1v5h"
-=======
-uid="uid://dfl4mvd4akqdq"
->>>>>>> b1c4677a82e1f90cdd0c7cf1167006bb6086f618
-path="res://.godot/imported/oficina level3.png-cffa20a7510aa66c4b95419f3f4cb5f3.ctex"
+uid="uid://b8sn3p1exkif0"
+path="res://.godot/imported/primeira.png-1a097796c745f08011a1817bb3ec54f8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/oficina/oficina level3.png"
-dest_files=["res://.godot/imported/oficina level3.png-cffa20a7510aa66c4b95419f3f4cb5f3.ctex"]
+source_file="res://images/test-drive/primeira.png"
+dest_files=["res://.godot/imported/primeira.png-1a097796c745f08011a1817bb3ec54f8.ctex"]
 
 [params]
 

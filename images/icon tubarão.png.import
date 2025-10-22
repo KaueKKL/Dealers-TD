@@ -2,20 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-<<<<<<< HEAD
-uid="uid://b4n5xcrir1v5h"
-=======
-uid="uid://dfl4mvd4akqdq"
->>>>>>> b1c4677a82e1f90cdd0c7cf1167006bb6086f618
-path="res://.godot/imported/oficina level3.png-cffa20a7510aa66c4b95419f3f4cb5f3.ctex"
+uid="uid://u51mpnqm1mxa"
+path="res://.godot/imported/icon tubarão.png-30aa2a9e17076ec69c4600a43ff1d679.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/oficina/oficina level3.png"
-dest_files=["res://.godot/imported/oficina level3.png-cffa20a7510aa66c4b95419f3f4cb5f3.ctex"]
+source_file="res://images/icon tubarão.png"
+dest_files=["res://.godot/imported/icon tubarão.png-30aa2a9e17076ec69c4600a43ff1d679.ctex"]
 
 [params]
 

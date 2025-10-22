@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://h73hiqesp5xb"
+=======
+uid="uid://dmixlkq51c86a"
+>>>>>>> b1c4677a82e1f90cdd0c7cf1167006bb6086f618
 path="res://.godot/imported/oficina evolucao especial customizador.png-57bde274ccd6331edc4b97b3f5094fb2.ctex"
 metadata={
 "vram_texture": false
