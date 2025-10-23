@@ -2,8 +2,18 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://bxxo0i03vjb3i"
 path="res://.godot/imported/icone de evolucao 2.png-c16a8e5addcd94a8b9833d571ac79534.ctex"
+=======
+<<<<<<<< HEAD:images/oficina/icone da oficina.png.import
+uid="uid://bdj8a3481e2eu"
+path="res://.godot/imported/icone da oficina.png-428f8c7aa9c57207e9a3d605e49b0813.ctex"
+========
+uid="uid://bwdswi5xelqla"
+path="res://.godot/imported/icone de evolucao 2.png-c16a8e5addcd94a8b9833d571ac79534.ctex"
+>>>>>>>> 54008be492378b216c37a274aeae5d12f8f17ee7:images/Segurança/icone de evolucao 2.png.import
+>>>>>>> 54008be492378b216c37a274aeae5d12f8f17ee7
 metadata={
 "vram_texture": false
 }

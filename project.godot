@@ -22,6 +22,7 @@ SignalBus="*res://scripts/autoload/SignalBus.gd"
 TowerManager="*res://scripts/autoload/TowerManager.gd"
 GameState="*res://scripts/autoload/GameState.gd"
 WaveManager="*res://scenes/managers/WaveManager.tscn"
+SceneManager="*res://scripts/autoload/SceneManager.gd"
 
 [layer_names]
 

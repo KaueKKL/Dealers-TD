@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://c8q1388x4qfok"
+=======
+uid="uid://diyxh0ew6d7rp"
+>>>>>>> 54008be492378b216c37a274aeae5d12f8f17ee7
 path="res://.godot/imported/financeiro level 1.png-8b3fc85bae994cc453b420af76607648.ctex"
 metadata={
 "vram_texture": false

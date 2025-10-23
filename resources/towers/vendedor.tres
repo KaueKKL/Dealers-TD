@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="TowerResource" load_steps=2 format=3 uid="uid://yk1q3ek1mh8d"]
+
+[ext_resource type="Script" uid="uid://dv8u4mpthseie" path="res://scripts/core/TowerResource.gd" id="1_srjo7"]
+
+[resource]
+script = ExtResource("1_srjo7")
+nome = "Vendedor"
+descricao = "Conversa persuasiva."
+mecanica = "Dano psicológico + chance de converter."
+dano = 10.0
+alcance = 200.0
+tempo_ataque = 1.0
+custo_construcao = 100
+metadata/_custom_type_script = "uid://dv8u4mpthseie"

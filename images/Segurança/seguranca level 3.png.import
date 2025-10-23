@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://badjflgv6h7a8"
+=======
+uid="uid://dl0cpqb4wkrhd"
+>>>>>>> 54008be492378b216c37a274aeae5d12f8f17ee7
 path="res://.godot/imported/seguranca level 3.png-9c18fb2af4795e6c7232adce98978954.ctex"
 metadata={
 "vram_texture": false
