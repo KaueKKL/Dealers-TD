@@ -2,8 +2,18 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
+uid="uid://brbmqqv30c60v"
+path="res://.godot/imported/drone gigante.png-66d08a7af97c1e48d10f5911cb87398e.ctex"
+=======
+<<<<<<<< HEAD:images/oficina/oficina level3.png.import
+uid="uid://bymxxbyq8au0n"
+path="res://.godot/imported/oficina level3.png-cffa20a7510aa66c4b95419f3f4cb5f3.ctex"
+========
 uid="uid://dvjq4brc45nl8"
 path="res://.godot/imported/drone gigante.png-66d08a7af97c1e48d10f5911cb87398e.ctex"
+>>>>>>>> 54008be492378b216c37a274aeae5d12f8f17ee7:images/Segurança/drone gigante.png.import
+>>>>>>> 54008be492378b216c37a274aeae5d12f8f17ee7
 metadata={
 "vram_texture": false
 }

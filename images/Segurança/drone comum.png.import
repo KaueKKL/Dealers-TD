@@ -2,8 +2,18 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
+uid="uid://cxr5vaf2v7kcx"
+path="res://.godot/imported/drone comum.png-328b748bf0622fd346d2b36e8122715d.ctex"
+=======
+<<<<<<<< HEAD:images/oficina/oficina level2.png.import
+uid="uid://g75dw0cc7fkq"
+path="res://.godot/imported/oficina level2.png-9eb10b81e00caaa02db7cf4f30b9b638.ctex"
+========
 uid="uid://cx4yffayeekru"
 path="res://.godot/imported/drone comum.png-328b748bf0622fd346d2b36e8122715d.ctex"
+>>>>>>>> 54008be492378b216c37a274aeae5d12f8f17ee7:images/Segurança/drone comum.png.import
+>>>>>>> 54008be492378b216c37a274aeae5d12f8f17ee7
 metadata={
 "vram_texture": false
 }
