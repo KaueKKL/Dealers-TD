@@ -1,0 +1,10 @@
+res://scripts/core
+res://resources/waves
+res://resources/enemies
+res://resources/towers
+res://resources/effects
+res://scripts/gameplay
+res://scripts/ui
+res://scripts/autoload
+res://scripts/utils
+res://scenes/managers

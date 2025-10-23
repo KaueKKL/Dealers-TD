@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="VisualData" load_steps=3 format=3 uid="uid://cnm0hmnuaqb83"]
+
+[ext_resource type="Script" uid="uid://bj121be4mk1co" path="res://scripts/core/VisualData.gd" id="1_oyx87"]
+[ext_resource type="Texture2D" uid="uid://v70uupw5qqlr" path="res://assets/Enemies/Cliente Impaciente/animations/walking-4-frames/east/frame_001.png" id="2_mys5f"]
+
+[resource]
+script = ExtResource("1_oyx87")
+texture = ExtResource("2_mys5f")
+scale = Vector2(1, 1)
+offset = Vector2(0, 0)
+metadata/_custom_type_script = "uid://bj121be4mk1co"

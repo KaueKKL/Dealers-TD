@@ -1,0 +1,49 @@
+Base Tower: "Vigia Solitário" (Lone Watchman)
+
+Description: A dedicated operator controls a single reconnaissance drone, patrolling the perimeter and exposing hidden threats.
+
+Mechanics: Very low physical damage (perhaps the drone bumps enemies), but its primary function is Revealing Stealth in a small radius.
+
+Visual idea: The operator from the image, in a small, simple monitoring cabin. A single, unarmed drone hovers nearby or circles a small area.
+
+Core Evolutions (Linear Progression):
+Evolution 1: "Patrulha Aérea Aprimorada" (Enhanced Air Patrol)
+
+Description: The operator commands a more advanced drone with a wider sensor suite, increasing surveillance efficiency.
+
+Mechanics: Increased range for Revealing Stealth. The drone now delivers a small "Shock" damage (electrical/disruption) on revealed enemies.
+
+Visual idea: The operator looks more focused, perhaps with more screens. The drone is slightly larger or has more visible sensors/antennas. The "shock" could be a small electrical spark animation.
+
+Evolution 2: "Esquadrão de Drones de Recon." (Recon Drone Squadron)
+
+Description: The operator now manages a small fleet of specialized reconnaissance drones, covering a much broader area.
+
+Mechanics: Significantly increased range for Revealing Stealth. Multiple drones can target different enemies, applying "Shock" damage. Each revealed enemy also suffers a brief "Disorient" effect (minor slow or reduced attack speed).
+
+Visual idea: The cabin has more screens, showing multiple drone feeds. 2-3 unarmed drones are now visible, covering a wider airspace. "Disorient" could be represented by small, buzzing lines around affected enemies.
+
+Evolution 3: "Centro de Comando e Vigilância" (Command & Surveillance Center)
+
+Description: A full-fledged command center, where a team monitors a network of drones, providing comprehensive surveillance and tactical disruption.
+
+Mechanics: Massive range for Revealing Stealth. Drones now deliver moderate "Disruption Damage" (damages defenses/shields). Unlocks the "Auditoria Total" equivalent: an active ability that triggers "Varredura Tática" (Tactical Scan) - reveals ALL stealth enemies on screen for an extended duration and applies a strong, short-duration "Disorient" to all enemies.
+
+Visual idea: A larger, more sophisticated building. The operator is now one of several figures in a high-tech control room with a wall of screens. Numerous drones are visible in the air. "Varredura Tática" could show a grid-like scan animation across the whole screen.
+
+Special Evolutions (Branching from Evolution 3):
+Special Evolution A: "Contramedidas Eletrônicas" (Electronic Countermeasures)
+
+Description: This specialized center focuses on jamming and disrupting enemy systems, crippling their ability to fight or hide.
+
+Mechanics: Drones deliver less raw damage but apply powerful "Interference" debuffs: Significantly reduces enemy attack speed, accuracy, or special abilities. Guaranteed Reveal of stealth enemies within range. The "Varredura Tática" becomes "Pulso EMP" which deals moderate area damage and applies a long-duration "Interference" debuff to all affected enemies.
+
+Visual idea: The building has prominent radar dishes or large antenna arrays. Drones emit visible electronic pulses or static effects. Enemies hit by "Interference" might have glitching visual effects or slow, jerky movements.
+
+Special Evolution B: "Drones de Assalto Leve" (Light Assault Drones)
+
+Description: The surveillance drones are upgraded with light weaponry, transitioning into rapid-response combat units while maintaining their recon capabilities.
+
+Mechanics: Drones now deal a combination of "Shock" and Kinetic Damage. Maintains a good range for Revealing Stealth. Attack speed of drones is significantly increased. The "Varredura Tática" becomes "Investida de Bando" which deploys several temporary, extra-fast drones that swarm and attack a specific group of enemies for a short duration, dealing high damage and revealing them.
+
+Visual idea: Drones are visibly equipped with small laser pointers or tiny projectile launchers. The building might have drone hangars or automated launch pads. "Investida de Bando" could show a flurry of additional drones rapidly descending on targets.

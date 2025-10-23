@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://d1bwa56n7p6yc"]
+
+[ext_resource type="Script" uid="uid://brylngalmlmw7" path="res://scripts/gameplay/Level.gd" id="1_i2pqh"]
+[ext_resource type="PackedScene" uid="uid://bl5xhd0p6rlfg" path="res://scenes/ui/HUD.tscn" id="2_gsbbr"]
+
+[sub_resource type="Curve2D" id="Curve2D_a01y6"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 576, 256, 0, 0, 0, 0, 288, 128, 0, 0, 0, 0, 0, 256)
+}
+point_count = 3
+
+[node name="Level01" type="Node2D"]
+script = ExtResource("1_i2pqh")
+
+[node name="EnemyPath" type="Path2D" parent="."]
+curve = SubResource("Curve2D_a01y6")
+
+[node name="SpawnPoint" type="Marker2D" parent="EnemyPath"]
+position = Vector2(577, 256)
+
+[node name="TowersContainer" type="Node2D" parent="."]
+
+[node name="HUD" parent="." instance=ExtResource("2_gsbbr")]

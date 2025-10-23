@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="EffectResource" load_steps=2 format=3 uid="uid://dwwklku87ufua"]
+
+[ext_resource type="Script" uid="uid://cfweocladfno8" path="res://scripts/core/EffectResource.gd" id="1_qjevq"]
+
+[resource]
+script = ExtResource("1_qjevq")
+type = 0
+value = 10.0
+duration = 0.0
+metadata/_custom_type_script = "uid://cfweocladfno8"

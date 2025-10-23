@@ -1,0 +1,110 @@
+[gd_scene load_steps=2 format=3 uid="uid://bl5xhd0p6rlfg"]
+
+[ext_resource type="Script" uid="uid://guddg4bpudta" path="res://scripts/ui/HUD.gd" id="1_kw0id"]
+
+[node name="HUD" type="CanvasLayer"]
+script = ExtResource("1_kw0id")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 15
+theme_override_constants/margin_top = 15
+theme_override_constants/margin_right = 15
+theme_override_constants/margin_bottom = 15
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+theme_override_constants/separation = 350
+
+[node name="Menu" type="HBoxContainer" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 250
+alignment = 1
+
+[node name="ComissoesLabel" type="Label" parent="MarginContainer/VBoxContainer/Menu"]
+layout_mode = 2
+size_flags_horizontal = 0
+text = "Comissões: 0"
+
+[node name="WaveLabel" type="Label" parent="MarginContainer/VBoxContainer/Menu"]
+layout_mode = 2
+text = "Wave: 0"
+
+[node name="VidasLabel" type="Label" parent="MarginContainer/VBoxContainer/Menu"]
+layout_mode = 2
+size_flags_horizontal = 8
+text = "Vidas: 0"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/VBoxContainer/Menu"]
+layout_mode = 2
+
+[node name="StartWaveButton" type="Button" parent="MarginContainer/VBoxContainer/Menu/VBoxContainer"]
+layout_mode = 2
+text = "Iniciar Wave"
+
+[node name="SpeedButton" type="Button" parent="MarginContainer/VBoxContainer/Menu/VBoxContainer"]
+layout_mode = 2
+text = "Velocidade (x2)"
+
+[node name="Towers" type="HBoxContainer" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 8
+size_flags_vertical = 8
+
+[node name="Col1" type="VBoxContainer" parent="MarginContainer/VBoxContainer/Towers"]
+layout_mode = 2
+
+[node name="Oficina" type="Button" parent="MarginContainer/VBoxContainer/Towers/Col1"]
+custom_minimum_size = Vector2(120, 0)
+layout_mode = 2
+text = "Oficina
+(50)"
+
+[node name="TestDrive" type="Button" parent="MarginContainer/VBoxContainer/Towers/Col1"]
+custom_minimum_size = Vector2(120, 0)
+layout_mode = 2
+text = "Test Drive
+(50)"
+
+[node name="LavaRapido" type="Button" parent="MarginContainer/VBoxContainer/Towers/Col1"]
+custom_minimum_size = Vector2(120, 0)
+layout_mode = 2
+text = "Lava Rápido
+(50)"
+
+[node name="Financeiro" type="Button" parent="MarginContainer/VBoxContainer/Towers/Col1"]
+custom_minimum_size = Vector2(120, 0)
+layout_mode = 2
+text = "Financeiro
+(50)"
+
+[node name="Col2" type="VBoxContainer" parent="MarginContainer/VBoxContainer/Towers"]
+layout_mode = 2
+
+[node name="Seguranca" type="Button" parent="MarginContainer/VBoxContainer/Towers/Col2"]
+custom_minimum_size = Vector2(120, 0)
+layout_mode = 2
+text = "Segurança
+(50)"
+
+[node name="Vendedor" type="Button" parent="MarginContainer/VBoxContainer/Towers/Col2"]
+custom_minimum_size = Vector2(120, 0)
+layout_mode = 2
+text = "Vendedor
+(50)"
+
+[node name="Test1" type="Button" parent="MarginContainer/VBoxContainer/Towers/Col2"]
+custom_minimum_size = Vector2(120, 0)
+layout_mode = 2
+text = "Test1
+(50)"
+
+[node name="Test2" type="Button" parent="MarginContainer/VBoxContainer/Towers/Col2"]
+custom_minimum_size = Vector2(120, 0)
+layout_mode = 2
+text = "Test2
+(50)"

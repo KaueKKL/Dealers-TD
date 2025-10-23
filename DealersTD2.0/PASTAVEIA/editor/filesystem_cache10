@@ -1,0 +1,234 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1761193552
+icon.svg::CompressedTexture2D/CompressedTexture2D::1307544180135317492::1761190929::1761190942::1::::<><><>0<>0<>2cf1b4a9bfa55cbca37cfa27862359d6<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+::res://addons/::1761191063
+::res://assets/::1761223130
+::res://assets/Enemies/::1761223430
+::res://assets/Enemies/Cliente Impaciente/::1761223430
+metadata.json::JSON::-1::1761172552::0::1::::<><><>0<>0<><>::
+::res://assets/Enemies/Cliente Impaciente/animations/::1761223430
+::res://assets/Enemies/Cliente Impaciente/animations/walking-4-frames/::1761223430
+::res://assets/Enemies/Cliente Impaciente/animations/walking-4-frames/east/::1761223430
+frame_000.png::CompressedTexture2D::4009394275935791571::1761172552::1761223664::1::::<><><>0<>0<>b3d58c1b96d97f13577e7a49926e5a8d<>res://.godot/imported/frame_000.png-18906ba5b6d0ef3f3387772ef7ad9f0c.ctex::
+frame_001.png::CompressedTexture2D::1541580519905238695::1761172552::1761223664::1::::<><><>0<>0<>89738abb2b1386868cfd4c456210dfe6<>res://.godot/imported/frame_001.png-78829dfe0f315dafdb808c4292ca1edc.ctex::
+frame_002.png::CompressedTexture2D::771213785733213987::1761172552::1761223664::1::::<><><>0<>0<>1a6dbf589c6120d30893cb2bab06b293<>res://.godot/imported/frame_002.png-bc196ffc3a95e17a8e2b3689c7c5f7b8.ctex::
+frame_003.png::CompressedTexture2D::190994715948850722::1761172552::1761223664::1::::<><><>0<>0<>f4c29c726b33384fcdc352c91904f9f6<>res://.godot/imported/frame_003.png-3fe44b4f47d3942f9ee555c7bfba220c.ctex::
+::res://assets/Enemies/Cliente Impaciente/animations/walking-4-frames/north/::1761223430
+frame_000.png::CompressedTexture2D::1864596750422594242::1761172550::1761223664::1::::<><><>0<>0<>ae51a87943960a3c7f64c507a884902b<>res://.godot/imported/frame_000.png-684e39d0837a257e0fac24a313f3818e.ctex::
+frame_001.png::CompressedTexture2D::6402673191285862538::1761172550::1761223664::1::::<><><>0<>0<>b6dfc21adfaf5b19315c39bf2e6cba9c<>res://.godot/imported/frame_001.png-e40c55f9ef289b9869473d324ef223c6.ctex::
+frame_002.png::CompressedTexture2D::7419876674617918299::1761172550::1761223664::1::::<><><>0<>0<>b7e11b4fdf73cac5e1b60c274124c886<>res://.godot/imported/frame_002.png-bdf77b1c1b8638d7c3f02f3dea1e9750.ctex::
+frame_003.png::CompressedTexture2D::200353850827605337::1761172550::1761223664::1::::<><><>0<>0<>0ea09683820d129338635b9dc7f3d19c<>res://.godot/imported/frame_003.png-e2ab3737a0dfa3b58b1d6dd6404da309.ctex::
+::res://assets/Enemies/Cliente Impaciente/animations/walking-4-frames/south/::1761223430
+frame_000.png::CompressedTexture2D::4042477003737634628::1761172552::1761223664::1::::<><><>0<>0<>c146f2f813abe80b6f40e27017b2780c<>res://.godot/imported/frame_000.png-212452c5075f74902c82d48d82cc00fc.ctex::
+frame_001.png::CompressedTexture2D::2736882008370421171::1761172552::1761223664::1::::<><><>0<>0<>75008c91d450840aea2ef2fe1b7b8ea9<>res://.godot/imported/frame_001.png-e0400ded2c14f1ea516059a4df1ba7fa.ctex::
+frame_002.png::CompressedTexture2D::8562749880175948516::1761172552::1761223664::1::::<><><>0<>0<>cf9a825d7e8f433815700b12fd0e72a6<>res://.godot/imported/frame_002.png-d2bfb2048eb26b5199587de032a6cb9c.ctex::
+frame_003.png::CompressedTexture2D::2306490273423392676::1761172552::1761223664::1::::<><><>0<>0<>3013507304433c9bebd20ecf4531ba3a<>res://.godot/imported/frame_003.png-ab15fde1363ebef30ecd6ae8ad59d84f.ctex::
+::res://assets/Enemies/Cliente Impaciente/animations/walking-4-frames/west/::1761223430
+frame_000.png::CompressedTexture2D::3937562225130908724::1761172552::1761223664::1::::<><><>0<>0<>45ffa4d8e40f867a68b5002816bc2fc7<>res://.godot/imported/frame_000.png-57d33ac8d8c656dcf7a85481cc9052d3.ctex::
+frame_001.png::CompressedTexture2D::173118699251297806::1761172552::1761223664::1::::<><><>0<>0<>cab2985135627c369c559156315361b1<>res://.godot/imported/frame_001.png-3b3f479615b3e30b2069954c19e3d797.ctex::
+frame_002.png::CompressedTexture2D::5767398839190467694::1761172552::1761223664::1::::<><><>0<>0<>27254d0d57f15300ecab6258fbd53949<>res://.godot/imported/frame_002.png-1b6c86834b76d3bbe428950bf649a95c.ctex::
+frame_003.png::CompressedTexture2D::6873625321253171841::1761172552::1761223664::1::::<><><>0<>0<>d632d58d9aa7acfb2f19d50ae95cb38e<>res://.godot/imported/frame_003.png-4b8fc6e7a3ba12746d9578042468d311.ctex::
+::res://assets/Enemies/Cliente Impaciente/rotations/::1761223430
+east.png::CompressedTexture2D::6312510456679334833::1761172550::1761223664::1::::<><><>0<>0<>bf31dfe6116fb4c63a6aa944caa25b20<>res://.godot/imported/east.png-7a5d84016f84d8848a0d3ab2af32df61.ctex::
+north.png::CompressedTexture2D::1442337470583907418::1761172550::1761223664::1::::<><><>0<>0<>e6b2f69e66e748c3779f2fda6a8503a5<>res://.godot/imported/north.png-79e4df4acdfddd74f58e325ce40de383.ctex::
+south.png::CompressedTexture2D::3745832346033303409::1761172550::1761223664::1::::<><><>0<>0<>75a6ab83258ac219dee6f139f31bf0b6<>res://.godot/imported/south.png-e0801cb90d73a17fb781d21260e9f8be.ctex::
+west.png::CompressedTexture2D::1581771694474703212::1761172550::1761223664::1::::<><><>0<>0<>3313c6edba67719aacc39dac588b6e5a<>res://.godot/imported/west.png-5f1f1548270d70550d8697e80a2bddec.ctex::
+::res://assets/Enemies/Concorrente Sabotador/::1761223430
+metadata.json::JSON::-1::1761172570::0::1::::<><><>0<>0<><>::
+::res://assets/Enemies/Concorrente Sabotador/animations/::1761223430
+::res://assets/Enemies/Concorrente Sabotador/animations/walking-4-frames/::1761223430
+::res://assets/Enemies/Concorrente Sabotador/animations/walking-4-frames/east/::1761223430
+frame_000.png::CompressedTexture2D::8031253937385001544::1761172568::1761223664::1::::<><><>0<>0<>1e555c56cee73451a13458ab8e9316b8<>res://.godot/imported/frame_000.png-17e8b2fda0e69084598119629b43919f.ctex::
+frame_001.png::CompressedTexture2D::6353426017141553269::1761172568::1761223664::1::::<><><>0<>0<>416f912d69ab96c948dab2af3332c6f7<>res://.godot/imported/frame_001.png-f87b4a5e1a9051ebda69220d6a04f183.ctex::
+frame_002.png::CompressedTexture2D::6454072199668433818::1761172568::1761223664::1::::<><><>0<>0<>42304f37782d54e0cb8f121f3caf585d<>res://.godot/imported/frame_002.png-062d0dcfd69d8385a8f0ab2b7bdc3fc7.ctex::
+frame_003.png::CompressedTexture2D::2245861181531068676::1761172568::1761223664::1::::<><><>0<>0<>530d6ae3cfc38de93abf8e67d0f3d000<>res://.godot/imported/frame_003.png-82a081fa305777758d0dfc96eb86f93c.ctex::
+::res://assets/Enemies/Concorrente Sabotador/animations/walking-4-frames/north/::1761223430
+frame_000.png::CompressedTexture2D::3438303417678378268::1761172570::1761223664::1::::<><><>0<>0<>84ba19710d13fcff4ee1f18e8c125dd8<>res://.godot/imported/frame_000.png-ef7d002a1a19a7a06cd1701fac4c261b.ctex::
+frame_001.png::CompressedTexture2D::6907355214022350939::1761172570::1761223664::1::::<><><>0<>0<>62b99085d4e83cff393059cbf2a81241<>res://.godot/imported/frame_001.png-2ed721b0de4cf1b5bd26e6db6e84fa14.ctex::
+frame_002.png::CompressedTexture2D::1845491187149618604::1761172570::1761223664::1::::<><><>0<>0<>1ac006dbd0e438ca468ca681b8f59035<>res://.godot/imported/frame_002.png-2b420b3d5bfdfd207aa71ff1311e49b0.ctex::
+frame_003.png::CompressedTexture2D::6701652298038092892::1761172570::1761223664::1::::<><><>0<>0<>7ec45e4d57f8ee315b9114e36c736600<>res://.godot/imported/frame_003.png-bbecfb1ec2154e757eba72c34eef7d98.ctex::
+::res://assets/Enemies/Concorrente Sabotador/animations/walking-4-frames/south/::1761223430
+frame_000.png::CompressedTexture2D::5606896354611534353::1761172568::1761223664::1::::<><><>0<>0<>ea50f150bf8bccda11de14d546f6dd70<>res://.godot/imported/frame_000.png-c09e411a53cf1f6c8c1bf76f9b37e829.ctex::
+frame_001.png::CompressedTexture2D::4338906148059799719::1761172568::1761223664::1::::<><><>0<>0<>5780d7b89aedb3d2e439b255a3a4e1d4<>res://.godot/imported/frame_001.png-05bb802bbb6a0b3c56109ee9335fd6b8.ctex::
+frame_002.png::CompressedTexture2D::9020991885011938780::1761172568::1761223664::1::::<><><>0<>0<>5c6bc95d8f1df3398633d8ef88cb4689<>res://.godot/imported/frame_002.png-9c30a24b09bb91ce10e361e5383a763d.ctex::
+frame_003.png::CompressedTexture2D::6325004006309210293::1761172568::1761223664::1::::<><><>0<>0<>e25be4ffb647b713d65207eab5858a12<>res://.godot/imported/frame_003.png-e9c3fc9d88c186eeb86488c60214eea6.ctex::
+::res://assets/Enemies/Concorrente Sabotador/animations/walking-4-frames/west/::1761223430
+frame_000.png::CompressedTexture2D::2782371598640999403::1761172570::1761223664::1::::<><><>0<>0<>cf42b0b88ebc2b6a6cb302f3008378d6<>res://.godot/imported/frame_000.png-c25a311da39c60e35683b1a543747edf.ctex::
+frame_001.png::CompressedTexture2D::8476756771870335534::1761172570::1761223664::1::::<><><>0<>0<>ab8f30eb318c5dfc88d1dcf683e45b22<>res://.godot/imported/frame_001.png-faf8edae8efbe29bdac2bab393a1f98f.ctex::
+frame_002.png::CompressedTexture2D::8254473446934178090::1761172570::1761223664::1::::<><><>0<>0<>ef1d4ff545c5775c290e67bef0c44b1c<>res://.godot/imported/frame_002.png-dd744e08f4103e93111b901c3d0da249.ctex::
+frame_003.png::CompressedTexture2D::738091840359415110::1761172570::1761223664::1::::<><><>0<>0<>b7f5d6113b9e15afdc04730676b5a899<>res://.godot/imported/frame_003.png-9d10f3e1cfa1fae9e69c411c518e5c0f.ctex::
+::res://assets/Enemies/Concorrente Sabotador/rotations/::1761223430
+east.png::CompressedTexture2D::3165775464871752641::1761172568::1761223664::1::::<><><>0<>0<>fabc12827a6d7feda0a3cdeb2205a549<>res://.godot/imported/east.png-da7dc48443ada0ce28eb91b79de15ba4.ctex::
+north.png::CompressedTexture2D::2176079555881614910::1761172568::1761223664::1::::<><><>0<>0<>6e2a4781d4930a2674cb3851d4a590ff<>res://.godot/imported/north.png-ef65ad1e9a382b176ad8433ade6a6afc.ctex::
+south.png::CompressedTexture2D::993709509517473737::1761172568::1761223664::1::::<><><>0<>0<>c247c1382939e007264c2408d144ff5f<>res://.godot/imported/south.png-c2c9af43b32e3856e3b5849889fd3fa9.ctex::
+west.png::CompressedTexture2D::2773642055015497990::1761172568::1761223664::1::::<><><>0<>0<>23cf5f8960241c80c4af60c3996d56b9<>res://.godot/imported/west.png-61d6e796ecbe42109725d64707b21d37.ctex::
+::res://assets/Enemies/Fiscal do Governo/::1761223430
+metadata.json::JSON::-1::1761172560::0::1::::<><><>0<>0<><>::
+::res://assets/Enemies/Fiscal do Governo/animations/::1761223430
+::res://assets/Enemies/Fiscal do Governo/animations/walking-4-frames/::1761223430
+::res://assets/Enemies/Fiscal do Governo/animations/walking-4-frames/east/::1761223430
+frame_000.png::CompressedTexture2D::6170134709125925047::1761172558::1761223664::1::::<><><>0<>0<>bda72a5d65f6220eb0ba3fde80eca081<>res://.godot/imported/frame_000.png-de5bfd116354d0542ce1d9cb54aad868.ctex::
+frame_001.png::CompressedTexture2D::3667622666594699858::1761172558::1761223664::1::::<><><>0<>0<>7a33350ba0ca9417207ca8b1d63940d0<>res://.godot/imported/frame_001.png-ea316e29f9d64cccf8725a4a892a38ea.ctex::
+frame_002.png::CompressedTexture2D::8735229838180974854::1761172558::1761223664::1::::<><><>0<>0<>6d9c5277c90c5b06673f3fd1738b2e26<>res://.godot/imported/frame_002.png-fab01c18fdb0b62fce6947d9fde6f480.ctex::
+frame_003.png::CompressedTexture2D::222915521925225682::1761172558::1761223664::1::::<><><>0<>0<>10869f52274b04083f0ebb61b5f351c3<>res://.godot/imported/frame_003.png-dd1cb5d4533345d153b8b011e0c20028.ctex::
+::res://assets/Enemies/Fiscal do Governo/animations/walking-4-frames/north/::1761223430
+frame_000.png::CompressedTexture2D::6321438856191472376::1761172558::1761223664::1::::<><><>0<>0<>1f2a1a6bb85021bfd18c1348d719cbbb<>res://.godot/imported/frame_000.png-c307b9b7410486cf03410b7b7f0dd665.ctex::
+frame_001.png::CompressedTexture2D::2187935733045627718::1761172558::1761223664::1::::<><><>0<>0<>be02aa9e7a8d90d6f05328b99380c3d8<>res://.godot/imported/frame_001.png-fec84dd4a159a9a47aa86b686aeaa04c.ctex::
+frame_002.png::CompressedTexture2D::8640400427668452863::1761172558::1761223664::1::::<><><>0<>0<>c9f0139c650b08caa123f2007340b176<>res://.godot/imported/frame_002.png-71b2970e74cef3fe23eba8eafeca0e3d.ctex::
+frame_003.png::CompressedTexture2D::3402437248490789586::1761172558::1761223664::1::::<><><>0<>0<>9faf8762694299d428c69c58193b74dd<>res://.godot/imported/frame_003.png-661bd1ce0675a1725c9c69ca588a1a0d.ctex::
+::res://assets/Enemies/Fiscal do Governo/animations/walking-4-frames/south/::1761223430
+frame_000.png::CompressedTexture2D::8013177335940157325::1761172558::1761223664::1::::<><><>0<>0<>45f1f6ca26a8b4ab98688e4c1f5d0cde<>res://.godot/imported/frame_000.png-5284166a4ae5d5b62e83ff89a432d4d9.ctex::
+frame_001.png::CompressedTexture2D::1618680576756904954::1761172558::1761223664::1::::<><><>0<>0<>5637d4dd8b64e55d644a408125fc5d2b<>res://.godot/imported/frame_001.png-88333127fc2a0e09bb2cbc1fb8f5c7e4.ctex::
+frame_002.png::CompressedTexture2D::4400378653668488718::1761172558::1761223664::1::::<><><>0<>0<>cf63ada16468e3e2961b6a88acc6092f<>res://.godot/imported/frame_002.png-dee5cfcb59ac099b3726142518d5c5d2.ctex::
+frame_003.png::CompressedTexture2D::4218316275313957401::1761172558::1761223664::1::::<><><>0<>0<>62c9900e8c1a72dd71d3c48c8a4213b3<>res://.godot/imported/frame_003.png-99ab59dd09b06923c25c4f763c7ed152.ctex::
+::res://assets/Enemies/Fiscal do Governo/animations/walking-4-frames/west/::1761223430
+frame_000.png::CompressedTexture2D::7838941100964482534::1761172558::1761223664::1::::<><><>0<>0<>107d548890394b90628d1f332b9a7e8c<>res://.godot/imported/frame_000.png-dc8a7c80741a1cf7f3685d4b81326f4e.ctex::
+frame_001.png::CompressedTexture2D::7010428474878892131::1761172560::1761223664::1::::<><><>0<>0<>a7e0cf3cde630fe85222a3c3cf0c1088<>res://.godot/imported/frame_001.png-769bbce77d85fe2128b4dc738530090a.ctex::
+frame_002.png::CompressedTexture2D::1608035641191523016::1761172560::1761223664::1::::<><><>0<>0<>dcbadd3a96b786f264f36f939d60747e<>res://.godot/imported/frame_002.png-ae9fc322a641dae44fa52d5ccba1309e.ctex::
+frame_003.png::CompressedTexture2D::1037164828654800224::1761172560::1761223664::1::::<><><>0<>0<>df83d89fc05cd6fdf5bef957d180d4cc<>res://.godot/imported/frame_003.png-380e57b721bd6e068c0ab72fee6295b2.ctex::
+::res://assets/Enemies/Fiscal do Governo/rotations/::1761223430
+east.png::CompressedTexture2D::2977708260866525112::1761172556::1761223664::1::::<><><>0<>0<>7e295a7ee51dd6da67eddc95f9f662e9<>res://.godot/imported/east.png-b93aa9c608f130d60f8bb741b8d74c5d.ctex::
+north.png::CompressedTexture2D::5434624135714452555::1761172556::1761223664::1::::<><><>0<>0<>cd3c6071ef584ace8b9e77a14cc26d4b<>res://.godot/imported/north.png-bb6a7460132fc1799727b59a1370d6cb.ctex::
+south.png::CompressedTexture2D::8601853278727002116::1761172556::1761223664::1::::<><><>0<>0<>d8a8c44a67bae7a4a9158ddcc3408b9a<>res://.godot/imported/south.png-9fb1a91cb3ae9e42bfaf157ab28363e8.ctex::
+west.png::CompressedTexture2D::6668982933378340003::1761172556::1761223664::1::::<><><>0<>0<>07746720145b2faffc7df9a55f8d99db<>res://.godot/imported/west.png-e76d0467c6016e3757852c7c5030c2ae.ctex::
+::res://assets/Towers/::1761223171
+::res://assets/Towers/Financeiro/::1761223350
+description.txt::TextFile::-1::1761170378::0::1::::<><><>0<>0<><>::
+Financeiro.png::CompressedTexture2D::6406402425080849745::1761177403::1761223350::1::::<><><>0<>0<>416cb5b0c6ad62fbd3504e026a208efc<>res://.godot/imported/Financeiro.png-dc049d4457921ffaea21ddb8c27d971a.ctex::
+FinanceiroEspecial1.png::CompressedTexture2D::8628448055477958876::1761177403::1761223350::1::::<><><>0<>0<>e877d6b5c6695f6eefa11dcc61e3bfed<>res://.godot/imported/FinanceiroEspecial1.png-fa744fcd92d9ae1cb133e206527afebc.ctex::
+FinanceiroEspecial2.png::CompressedTexture2D::3045585645820199615::1761177403::1761223350::1::::<><><>0<>0<>1ac94b428c77fea6eb7931c958c48857<>res://.godot/imported/FinanceiroEspecial2.png-56e67eb0ea95683be9d38e05bf9004f1.ctex::
+FinanceiroLV1.png::CompressedTexture2D::2632835013123207596::1761177403::1761223350::1::::<><><>0<>0<>ef4b1a009e57b3af41aec4c746748036<>res://.godot/imported/FinanceiroLV1.png-bdbe0bc95c3d5eeb0a9cb6de4ba63bdd.ctex::
+FinanceiroLV2.png::CompressedTexture2D::2980993546580139045::1761177403::1761223349::1::::<><><>0<>0<>7ff83c681cc495ca262f7dd3a5f59429<>res://.godot/imported/FinanceiroLV2.png-8a2dee25637e04e92f8a8c6e73b53423.ctex::
+FinanceiroLV3.png::CompressedTexture2D::4018695171563711074::1761177403::1761223349::1::::<><><>0<>0<>9ae6691cba247c79f43e0b62d69eb14d<>res://.godot/imported/FinanceiroLV3.png-5b0655c97acaa8ede2957cbb81c920ba.ctex::
+IconFinanceiro.png::CompressedTexture2D::1092155585238297570::1761177403::1761223349::1::::<><><>0<>0<>20826ea704554ea345409f3d48cde7e6<>res://.godot/imported/IconFinanceiro.png-11b9c61efee13918118460eea159bafc.ctex::
+IconLV1.png::CompressedTexture2D::1053035692198634854::1761177403::1761223349::1::::<><><>0<>0<>ab458f081394ba893f764430cf7ba2cb<>res://.godot/imported/IconLV1.png-730c81d4d44d4cec806499313ed375a2.ctex::
+IconLV2.png::CompressedTexture2D::5178322682513660369::1761177403::1761223349::1::::<><><>0<>0<>9b3d722717924af37af85bbc5dd640c0<>res://.godot/imported/IconLV2.png-da6b7327d79e48142f25fd1767313bcb.ctex::
+IconLV3.png::CompressedTexture2D::7669928794792691035::1761177403::1761223349::1::::<><><>0<>0<>1e915adbeaaed9feea569da83970b7d5<>res://.godot/imported/IconLV3.png-f0f903f1f7de67709fb2c884c9b95687.ctex::
+IconSpecial1.png::CompressedTexture2D::2619603216650136365::1761177403::1761223349::1::::<><><>0<>0<>28d655e2353feb8493060ffa935ad033<>res://.godot/imported/IconSpecial1.png-4980e8105eff9ad3f2d5d99e7fc2223f.ctex::
+IconSpecial2.png::CompressedTexture2D::4802503041030955164::1761177403::1761223349::1::::<><><>0<>0<>8b279231ce7a08846a6e787c9fe2c58a<>res://.godot/imported/IconSpecial2.png-032802368ed8f2d683c2b29e7b5ae18e.ctex::
+::res://assets/Towers/LavaRapido/::1761223350
+description.txt::TextFile::-1::1761087684::0::1::::<><><>0<>0<><>::
+icone_de_evolucao_1-removebg-preview.png::CompressedTexture2D::7377637177820240756::1761177403::1761223349::1::::<><><>0<>0<>a09a6296d09b48b5887bd3862e3a09a0<>res://.godot/imported/icone_de_evolucao_1-removebg-preview.png-96b70c8e4c27830103b982609a13b38f.ctex::
+icone_de_evolucao_2-removebg-preview.png::CompressedTexture2D::8519409073349381223::1761177403::1761223349::1::::<><><>0<>0<>8670e95cf17ac8ac307574e6bccfcbe3<>res://.godot/imported/icone_de_evolucao_2-removebg-preview.png-4f11a5217167fff73f975cf91579cf68.ctex::
+icone_de_evolucao_3-removebg-preview.png::CompressedTexture2D::1018617030455466656::1761177403::1761223349::1::::<><><>0<>0<>49c2acd2a95ffb16fe1b3fa37bc4fc9e<>res://.godot/imported/icone_de_evolucao_3-removebg-preview.png-82060b4aaeb4f942aff2851c32ab8133.ctex::
+icone_de_evolucao_especial_espuma_quimica-removebg-preview.png::CompressedTexture2D::8976089057842651456::1761177403::1761223349::1::::<><><>0<>0<>8173bffac212539e173943f4eab8853f<>res://.godot/imported/icone_de_evolucao_especial_espuma_quimica-removebg-preview.png-a63b146a20341f9f02da9ecd6797640b.ctex::
+icone_de_evolucao_especial_secagem_turbo-removebg-preview.png::CompressedTexture2D::7063793988697955026::1761177403::1761223349::1::::<><><>0<>0<>9b0534933412461909f3f9b7a21bee92<>res://.godot/imported/icone_de_evolucao_especial_secagem_turbo-removebg-preview.png-e059d4f7f279abffc3246b2ed7b4fe12.ctex::
+icone_de_selecao_lava-jato-removebg-preview.png::CompressedTexture2D::1553170501552302127::1761177403::1761223349::1::::<><><>0<>0<>3ff35924dd35d252189f52381f7966fe<>res://.godot/imported/icone_de_selecao_lava-jato-removebg-preview.png-ded9bfc4a2d83fa4e2637846a7227b72.ctex::
+lava-jato_evolucao_especial_espuma_quimica-removebg-preview.png::CompressedTexture2D::2623264868428420191::1761177403::1761223350::1::::<><><>0<>0<>c7f64b4d9bf31683d08483117852b4d0<>res://.godot/imported/lava-jato_evolucao_especial_espuma_quimica-removebg-preview.png-5c7c6a90017eb0aa4d824a73aca72c7f.ctex::
+lava-jato_evolucao_especial_secagem_turbo-removebg-preview.png::CompressedTexture2D::1129259208578456467::1761177403::1761223350::1::::<><><>0<>0<>a8c2e51c01534d1fa29a4e15d3a0f68e<>res://.godot/imported/lava-jato_evolucao_especial_secagem_turbo-removebg-preview.png-47cd847e4c5c5001aee0384f58b82108.ctex::
+lava-jato_inicial-removebg-preview.png::CompressedTexture2D::6076213008156221162::1761177403::1761223350::1::::<><><>0<>0<>d24a722e03f25e38447a4041f40cad72<>res://.godot/imported/lava-jato_inicial-removebg-preview.png-3a6bfb8eae4b97bf46ddc24423d3178a.ctex::
+lava-jato_level1-removebg-preview.png::CompressedTexture2D::9078307775499346234::1761177403::1761223350::1::::<><><>0<>0<>e79d9aebe03f505b40576eb6ebe63b28<>res://.godot/imported/lava-jato_level1-removebg-preview.png-4144c515e19f57ae85fb48fffcbfff2b.ctex::
+lava-jato_level_2-removebg-preview.png::CompressedTexture2D::517398334311353796::1761177403::1761223350::1::::<><><>0<>0<>5f993199f01f46d06aa7fb6e1e925c9b<>res://.godot/imported/lava-jato_level_2-removebg-preview.png-6c0db004c866cda8e0dbd0a314d8bd65.ctex::
+lava-jato_level_3-removebg-preview.png::CompressedTexture2D::1658295766439779926::1761177403::1761223350::1::::<><><>0<>0<>6e060e90abf1dcf9261519f8e98dddf6<>res://.godot/imported/lava-jato_level_3-removebg-preview.png-fc7d1f68a699838cbc177e1043c86cf9.ctex::
+::res://assets/Towers/Oficina/::1761223350
+description.txt::TextFile::-1::1761087684::0::1::::<><><>0<>0<><>::
+icone_da_evoluçao_especial_customizador-removebg-preview.png::CompressedTexture2D::3101237298289328553::1761177403::1761223350::1::::<><><>0<>0<>7c91c8538ba4d9de6df68977a398e81d<>res://.godot/imported/icone_da_evoluçao_especial_customizador-removebg-preview.png-94a10cc29bcbae35d53f6674f6758f63.ctex::
+icone_da_oficina-removebg-preview.png::CompressedTexture2D::1982728216204481362::1761177403::1761223350::1::::<><><>0<>0<>5d1c006a9e3972bf05bf7c477b2d0e78<>res://.godot/imported/icone_da_oficina-removebg-preview.png-1ef43984292dbbf76e5a9dafb2258d00.ctex::
+icone_da_primeira_evoluçao-removebg-preview.png::CompressedTexture2D::7749916715489708444::1761177403::1761223350::1::::<><><>0<>0<>18f425d6060fa5414ed762dd4680dddf<>res://.godot/imported/icone_da_primeira_evoluçao-removebg-preview.png-74e4d5c2e8934cdbebc89179ae1bb352.ctex::
+icone_da_segunda_evoluçao-removebg-preview.png::CompressedTexture2D::2813484725134797057::1761177403::1761223350::1::::<><><>0<>0<>f1d595339f04a596c5e2346c9043b7ec<>res://.godot/imported/icone_da_segunda_evoluçao-removebg-preview.png-371a0d338c5813dc7800727b00bdfc5f.ctex::
+icone_da_terceira_evoluçao-removebg-preview.png::CompressedTexture2D::2200399990127047424::1761177403::1761223350::1::::<><><>0<>0<>e1972a0cdc0ac96a0dc118f6785ed5b0<>res://.godot/imported/icone_da_terceira_evoluçao-removebg-preview.png-47611a1ce6f5aec04b51ad71563b9e29.ctex::
+icone_de_evolucao_especial_pit_stop-removebg-preview.png::CompressedTexture2D::7128711149122364448::1761177403::1761223350::1::::<><><>0<>0<>120002870fad4d6f0b42dff75ce09fec<>res://.godot/imported/icone_de_evolucao_especial_pit_stop-removebg-preview.png-3d02330eaa04bb87764d19c77a7deec9.ctex::
+oficina_evolucao_especial_customizador-removebg-preview.png::CompressedTexture2D::5358971699419369555::1761177403::1761223350::1::::<><><>0<>0<>e5ac1116436fbb49fb106ae90bc7c4d0<>res://.godot/imported/oficina_evolucao_especial_customizador-removebg-preview.png-10bd1204fe5ec2f14c58b29611365dc2.ctex::
+oficina_evolucao_especial_pit_stop-removebg-preview.png::CompressedTexture2D::1206676562051322642::1761177403::1761223350::1::::<><><>0<>0<>c1aaf01dea22cf32b194d88ad2d93be5<>res://.godot/imported/oficina_evolucao_especial_pit_stop-removebg-preview.png-8b12f89f79a3f2b76a7e94512b06aaff.ctex::
+oficina_inicial-removebg-preview.png::CompressedTexture2D::5200300019488457303::1761177403::1761223350::1::::<><><>0<>0<>569f7d7d46df1d137625c340d3ac4586<>res://.godot/imported/oficina_inicial-removebg-preview.png-75bf725225c801974bb934ac63fe1c65.ctex::
+oficina_level1-removebg-preview.png::CompressedTexture2D::3591057291190836638::1761177403::1761223350::1::::<><><>0<>0<>c7c487f9fb89676ba1de265a147eb8b1<>res://.godot/imported/oficina_level1-removebg-preview.png-a0d126c6a903e126fffa693f4bdefc8f.ctex::
+oficina_level2-removebg-preview.png::CompressedTexture2D::4405230766372634106::1761177403::1761223350::1::::<><><>0<>0<>9d80d1e52049b87950657465f166e40b<>res://.godot/imported/oficina_level2-removebg-preview.png-6fb68cd53a2ec4eec42fe5d7cd806f32.ctex::
+oficina_level3-removebg-preview.png::CompressedTexture2D::329151564405381985::1761177403::1761223350::1::::<><><>0<>0<>1ae6b5b4fd78697df3121d62bf655bd1<>res://.godot/imported/oficina_level3-removebg-preview.png-d94281bb90b86cc753460d30504441f7.ctex::
+::res://assets/Towers/Segurança/::1761223349
+description.txt::TextFile::-1::1761170378::0::1::::<><><>0<>0<><>::
+drone_comum-removebg-preview.png::CompressedTexture2D::4545377653888345987::1761177403::1761223349::1::::<><><>0<>0<>4903fb2de9d3c3c5754dd480dde2ee74<>res://.godot/imported/drone_comum-removebg-preview.png-d0098635c82b5d625f60f1ccd4490e19.ctex::
+drone_gigante-removebg-preview.png::CompressedTexture2D::4447851352404594593::1761177403::1761223349::1::::<><><>0<>0<>8e6ce50dc276976b9fd3ed87632a7e77<>res://.godot/imported/drone_gigante-removebg-preview.png-f8e955bcd1510c5fb62309ed7f6d1381.ctex::
+drone_militar-removebg-preview.png::CompressedTexture2D::8403637557042624279::1761177403::1761223349::1::::<><><>0<>0<>1adfc83a577abf7fcc3c47c0dfeb8451<>res://.godot/imported/drone_militar-removebg-preview.png-58a2c362844dd6d8b95c2e7cc1ad269a.ctex::
+icone_de_evolucao_2-removebg-preview.png::CompressedTexture2D::3752150163781352610::1761177403::1761223349::1::::<><><>0<>0<>f9ac613e65aa66d655ab9d92822e7ec8<>res://.godot/imported/icone_de_evolucao_2-removebg-preview.png-f05e707a56f84a4d9253e6c4cae3b377.ctex::
+icone_de_evolucao_3-removebg-preview.png::CompressedTexture2D::5877384663046924720::1761177403::1761223349::1::::<><><>0<>0<>ae9b470e82a2c3c5427f579b420cbe9f<>res://.godot/imported/icone_de_evolucao_3-removebg-preview.png-1d04a541e753d096e16814962d3c9a46.ctex::
+icone_de_evolucao_megadrone-removebg-preview.png::CompressedTexture2D::7078887530803940090::1761177403::1761223349::1::::<><><>0<>0<>7692027ade887ab3131a3a8310a0dbe2<>res://.godot/imported/icone_de_evolucao_megadrone-removebg-preview.png-6a9aa941edd2c66b86fb829f7f65f347.ctex::
+icone_de_evolucao_militar-removebg-preview.png::CompressedTexture2D::1388023292693956811::1761177403::1761223349::1::::<><><>0<>0<>e3991c28281684abe2b772f1ca8b9b31<>res://.godot/imported/icone_de_evolucao_militar-removebg-preview.png-0cb895c548c63cf019b3d68373a7af1e.ctex::
+icone_de_selecao_seguranca-removebg-preview.png::CompressedTexture2D::5592501878717659692::1761177403::1761223349::1::::<><><>0<>0<>847ff6820f075d8d82d46f39bcad7deb<>res://.godot/imported/icone_de_selecao_seguranca-removebg-preview.png-70012b109ddea6869cb17194ca5ecc3b.ctex::
+icone_the_evolucao_1-removebg-preview.png::CompressedTexture2D::6153942095480147406::1761177403::1761223349::1::::<><><>0<>0<>778374135bcd8bdff14a068aeccb18b8<>res://.godot/imported/icone_the_evolucao_1-removebg-preview.png-cf4ea2dcd78ec300f37a27122792660c.ctex::
+seguranca_especial_mega_drone-removebg-preview.png::CompressedTexture2D::8541246971185014524::1761177403::1761223349::1::::<><><>0<>0<>04c176cffcd13d0538f2b3c96dfd0bbe<>res://.godot/imported/seguranca_especial_mega_drone-removebg-preview.png-ecefad8673efeda38547366ad3c9cfe9.ctex::
+seguranca_especial_militar-removebg-preview.png::CompressedTexture2D::6322469318141448067::1761177403::1761223349::1::::<><><>0<>0<>fdb0ef8c16bc2aba55ff91dce0f3a636<>res://.godot/imported/seguranca_especial_militar-removebg-preview.png-8fc36d9796a1074db235bc5b62dbb9e4.ctex::
+seguranca_inicial-removebg-preview.png::CompressedTexture2D::3429224836751963720::1761177403::1761223349::1::::<><><>0<>0<>a04873ed6554443253b93aa9dbc03246<>res://.godot/imported/seguranca_inicial-removebg-preview.png-72d5e4020d0191c6372d39a643c67ab6.ctex::
+seguranca_level_1-removebg-preview.png::CompressedTexture2D::5226083404068906268::1761177403::1761223349::1::::<><><>0<>0<>aa48ee138a30e50eb143e4b3922338d7<>res://.godot/imported/seguranca_level_1-removebg-preview.png-f8ea90fe0578dc4ce11361c6027280f5.ctex::
+seguranca_level_2-removebg-preview.png::CompressedTexture2D::1026046190367392926::1761177403::1761223349::1::::<><><>0<>0<>522a9477ff3eea0a0dc2e405062fbfea<>res://.godot/imported/seguranca_level_2-removebg-preview.png-494b3581bd9de3f4503c5b491d8cd1c4.ctex::
+seguranca_level_3-removebg-preview.png::CompressedTexture2D::7658737756549133736::1761177403::1761223349::1::::<><><>0<>0<>75a1a2ea1cf840e0714ff45c8d75e1d7<>res://.godot/imported/seguranca_level_3-removebg-preview.png-28623028698258921129fc980a985fa1.ctex::
+::res://assets/Towers/TestDrive/::1761223349
+base-removebg-preview.png::CompressedTexture2D::1824953120024079256::1761177403::1761223349::1::::<><><>0<>0<>d788419004ccfc466aed0dcb6152d31a<>res://.godot/imported/base-removebg-preview.png-5490d7187616094b41cbb06a03eedd7e.ctex::
+copa_pistão-removebg-preview.png::CompressedTexture2D::3610251778416230708::1761177403::1761223349::1::::<><><>0<>0<>5fa02059ec1bae317e42e0e62ced4eb8<>res://.godot/imported/copa_pistão-removebg-preview.png-7a0a50011d2fa2c72abf8b401f88b6d3.ctex::
+description.txt::TextFile::-1::1761170378::0::1::::<><><>0<>0<><>::
+icon_copa_pistão-removebg-preview.png::CompressedTexture2D::682938094319798100::1761177403::1761223349::1::::<><><>0<>0<>2884c0a22a33f29bd0f31adc8cc9cd13<>res://.godot/imported/icon_copa_pistão-removebg-preview.png-19276db9fd669d22a3b4ba2521709e62.ctex::
+icon_tubarão-removebg-preview.png::CompressedTexture2D::8806385617332322630::1761177403::1761223349::1::::<><><>0<>0<>62a31e8dda8d8a9a96926f6a744ac78f<>res://.godot/imported/icon_tubarão-removebg-preview.png-2812e716556d248baa1c520ae5433640.ctex::
+primeira-removebg-preview.png::CompressedTexture2D::4632184227395757122::1761177403::1761223349::1::::<><><>0<>0<>93d6db71a35133668ed987f1d474e953<>res://.godot/imported/primeira-removebg-preview.png-97f5224548617cb0f184954ae7c405bf.ctex::
+segunda-removebg-preview.png::CompressedTexture2D::1722662777724737600::1761177403::1761223349::1::::<><><>0<>0<>8457f6ff72b4e410b364eb2db975f40d<>res://.godot/imported/segunda-removebg-preview.png-0fcb4b34038b754bfccbda113419c33b.ctex::
+terceira-removebg-preview.png::CompressedTexture2D::2026238798916559864::1761177403::1761223349::1::::<><><>0<>0<>a17e0b3c247de3660fffc31928546997<>res://.godot/imported/terceira-removebg-preview.png-aeeb09dc10635c02f36d3edf9de46fb6.ctex::
+tubarão-removebg-preview.png::CompressedTexture2D::3291689550296506793::1761177403::1761223349::1::::<><><>0<>0<>265513d1f7f9d38d4d2ecb113280c5d9<>res://.godot/imported/tubarão-removebg-preview.png-775da0334b38013eaeea284fada99c0d.ctex::
+::res://assets/Towers/Vendedor/::1761223389
+description.txt::TextFile::-1::1761087684::0::1::::<><><>0<>0<><>::
+icone_de_escolha_do_vendedor-removebg-preview.png::CompressedTexture2D::5765053705813525614::1761177403::1761223389::1::::<><><>0<>0<>3edad1ef6612b3391bc21e0371a3def7<>res://.godot/imported/icone_de_escolha_do_vendedor-removebg-preview.png-d5fc234255a66ac2866caef7742a5824.ctex::
+vendedor_1_evolucao-removebg-preview.png::CompressedTexture2D::6389036146723531139::1761177403::1761223389::1::::<><><>0<>0<>bc292a3f6c12ec37341d09cab57d1eb8<>res://.godot/imported/vendedor_1_evolucao-removebg-preview.png-08792ec5f97be6b611121f10316814a7.ctex::
+vendedor_2_evolucao-removebg-preview.png::CompressedTexture2D::1159545590299432393::1761177403::1761223389::1::::<><><>0<>0<>f95e985777126b3464366f3ebf6c7a90<>res://.godot/imported/vendedor_2_evolucao-removebg-preview.png-647ec21a8b279f8acf6beb10d9aa015b.ctex::
+vendedor_3_evolucao-removebg-preview.png::CompressedTexture2D::3524376521813826409::1761177403::1761223389::1::::<><><>0<>0<>0fb50c8dfd57656fbd34248ceb929e23<>res://.godot/imported/vendedor_3_evolucao-removebg-preview.png-2e600dc5be3b390b41ebc90fd3a11650.ctex::
+vendedor_evolucao_especial_gerente_de_marketing-removebg-preview.png::CompressedTexture2D::9079580053270123671::1761177403::1761223389::1::::<><><>0<>0<>6ea70864fef21d938f79adb44fa461b9<>res://.godot/imported/vendedor_evolucao_especial_gerente_de_marketing-removebg-preview.png-3d5913b503f3957228328344e0740a00.ctex::
+vendedor_evolucao_especial_influencer-removebg-preview.png::CompressedTexture2D::3180536003447805313::1761177403::1761223389::1::::<><><>0<>0<>69388b57718c70eb4c61f2365ab9a7d2<>res://.godot/imported/vendedor_evolucao_especial_influencer-removebg-preview.png-682778a10ef8d2fd70b59b4cdb767e71.ctex::
+vendedor_evolução_especial_gerente_de_marketing-removebg-preview.png::CompressedTexture2D::8421900017778983809::1761177403::1761223389::1::::<><><>0<>0<>bdf9fba9f15186ae557b2c88abfd3ed1<>res://.godot/imported/vendedor_evolução_especial_gerente_de_marketing-removebg-preview.png-ef67575ec4fb8f3b3d82bec302979892.ctex::
+vendedor_evolução_especial_influencer-removebg-preview.png::CompressedTexture2D::2421359308179392789::1761177403::1761223389::1::::<><><>0<>0<>826cc84ced1d8c1f23e906cee108bb08<>res://.godot/imported/vendedor_evolução_especial_influencer-removebg-preview.png-4c47d74753e3982a241904cb985101eb.ctex::
+Vendedor_inicial-removebg-preview.png::CompressedTexture2D::4130654571672599398::1761190411::1761223388::1::::<><><>0<>0<>3bac8c768d057ee09abe2063bf745380<>res://.godot/imported/Vendedor_inicial-removebg-preview.png-dcfd2ef3e9c5f12fdd65a4a4fd4f01a2.ctex::
+vendedor_level1-removebg-preview.png::CompressedTexture2D::9197590715058986880::1761177403::1761223389::1::::<><><>0<>0<>63af18e951d72fe61a2385d652d5fc01<>res://.godot/imported/vendedor_level1-removebg-preview.png-82df027f3bc57a8ddcff2b01ec29e231.ctex::
+vendedor_level2-removebg-preview.png::CompressedTexture2D::5485177986881093313::1761177403::1761223389::1::::<><><>0<>0<>8f97b1ae6bdc1fed488a98aea6b614a0<>res://.godot/imported/vendedor_level2-removebg-preview.png-adfc06e5b4eea0700b652d466d4905e7.ctex::
+vendedor_level3-removebg-preview.png::CompressedTexture2D::6108029561593277624::1761177403::1761223389::1::::<><><>0<>0<>4bca6f23a43702ed1a915b060ab70b61<>res://.godot/imported/vendedor_level3-removebg-preview.png-13b519e221fbfd18228744a274e67445.ctex::
+::res://resources/::1761191179
+::res://resources/enemies/::1761223498
+visual_cliente.tres::Resource/VisualData::5711599944377835074::1761223498::0::1::::<><><>0<>0<><>::uid://bj121be4mk1co::::res://scripts/core/VisualData.gd
+::res://resources/towers/::1761191169
+::res://resources/waves/::1761191179
+::res://scenes/::1761192423
+::res://scenes/enemies/::1761195200
+Enemy.tscn::PackedScene::6501404800079275146::1761195200::0::1::::<><><>0<>0<><>::
+::res://scenes/levels/::1761195033
+Level01.tscn::PackedScene::8987573761486557830::1761195033::0::1::::<><><>0<>0<><>::uid://brylngalmlmw7::::res://scripts/gameplay/Level.gd<>uid://bl5xhd0p6rlfg::::res://scenes/ui/HUD.tscn
+::res://scenes/main/::1761194862
+MainMenu.tscn::PackedScene::1669958082528574971::1761194862::0::1::::<><><>0<>0<><>::uid://cywfekhkd33oi::::res://scripts/ui/MainMenu.gd
+LevelSelection.tscn::PackedScene::5072884052006776789::1761194862::0::1::::<><><>0<>0<><>::uid://bcm3rb7khysnt::::res://scripts/ui/LevelSelection.gd
+::res://scenes/managers/::1761194862
+EnemyManager.tscn::PackedScene::653344010062951400::1761194862::0::1::::<><><>0<>0<><>::uid://var1wye04ajk::::res://scripts/autoload/EnemyManager.gd
+TowerManager.tscn::PackedScene::9164916633162480611::1761194862::0::1::::<><><>0<>0<><>::uid://5clalmya31wd::::res://scripts/autoload/TowerManager.gd
+WaveManager.tscn::PackedScene::709095819528260530::1761194862::0::1::::<><><>0<>0<><>::uid://deetdfwjprp3c::::res://scripts/autoload/WaveManager.gd
+::res://scenes/projectiles/::1761223039
+Projectile.tscn::PackedScene::330242254935616055::1761223039::0::1::::<><><>0<>0<><>::uid://6mfmnl3lwc0k::::res://scripts/gameplay/Projectile.gd
+::res://scenes/towers/::1761222898
+Tower.tscn::PackedScene::5294191235158629832::1761222898::0::1::::<><><>0<>0<><>::uid://b7j4hptlett2x::::res://scripts/gameplay/Tower.gd
+::res://scenes/ui/::1761194997
+DefeatScreen.tscn::PackedScene::7075802413699162603::1761194862::0::1::::<><><>0<>0<><>::uid://bti2tgg5bslo2::::res://scripts/ui/DefeatScreen.gd
+HUD.tscn::PackedScene::3221838484638013172::1761194997::0::1::::<><><>0<>0<><>::uid://guddg4bpudta::::res://scripts/ui/HUD.gd
+VictoryScreen.tscn::PackedScene::7945715178966414455::1761194862::0::1::::<><><>0<>0<><>::uid://dvjvtfl5hp0hm::::res://scripts/ui/VictoryScreen.gd
+::res://scripts/::1761192695
+::res://scripts/autoload/::1761223039
+ChaosEngine.gd::GDScript::238663267843122571::1761191345::0::1::::<>Node<><>0<>0<><>::
+EnemyManager.gd::GDScript::1475045528722536628::1761191331::0::1::::<>Node<><>0<>0<><>::
+GameState.gd::GDScript::8929243557764811325::1761191265::0::1::::<>Node<><>0<>0<><>::
+PlayerState.gd::GDScript::1668699902258600345::1761191239::0::1::::<>Node<><>0<>0<><>::
+SceneManager.gd::GDScript::2827593293569783594::1761192357::0::1::::<>Node<><>0<>0<><>::
+SignalBus.gd::GDScript::3235187765671067475::1761223039::0::1::::<>Node<><>0<>0<><>::
+TowerManager.gd::GDScript::2110462548955608247::1761191293::0::1::::<>Node<><>0<>0<><>::
+WaveManager.gd::GDScript::7449434213924047502::1761191319::0::1::::<>Node<><>0<>0<><>::
+::res://scripts/core/::1761192291
+EffectResource.gd::GDScript::5169469887295183433::1761191825::0::1::::EffectResource<>Resource<><>0<>0<><>::
+EnemyResource.gd::GDScript::7372954144920837848::1761191865::0::1::::EnemyResource<>Resource<><>0<>0<><>::
+Modifier.gd::GDScript::2868435955387726603::1761191732::0::1::::Modifier<>Resource<><>0<>0<><>::
+TowerResource.gd::GDScript::2219212480760569004::1761191969::0::1::::TowerResource<>Resource<><>0<>0<><>::
+VisualData.gd::GDScript::3073479947523822826::1761191891::0::1::::VisualData<>Resource<><>0<>0<><>::
+WaveResource.gd::GDScript::1802135863867320348::1761192291::0::1::::WaveResource<>Resource<><>0<>0<><>::
+::res://scripts/gameplay/::1761222956
+Level.gd::GDScript::3629867509534654516::1761193969::0::1::::<>Node2D<><>0<>0<><>::
+Enemy.gd::GDScript::5738914621050183232::1761195200::0::1::::Enemy<>PathFollow2D<><>0<>0<><>::
+Projectile.gd::GDScript::2200952401402572164::1761222925::0::1::::Projectile<>Area2D<><>0<>0<><>::
+Tower.gd::GDScript::4652817190951677809::1761222956::0::1::::Tower<>Node2D<><>0<>0<><>::
+::res://scripts/system/::1761191102
+::res://scripts/ui/::1761194975
+MainMenu.gd::GDScript::6503101189934375268::1761193169::0::1::::<>Control<><>0<>0<><>::
+LevelSelection.gd::GDScript::2553301440733491973::1761193136::0::1::::<>Control<><>0<>0<><>::
+DefeatScreen.gd::GDScript::3738197349511129219::1761193387::0::1::::<>Control<><>0<>0<><>::
+HUD.gd::GDScript::462608485275103490::1761194975::0::1::::<>CanvasLayer<><>0<>0<><>::
+VictoryScreen.gd::GDScript::8653116435179445062::1761193532::0::1::::<>Control<><>0<>0<><>::
+::res://scripts/utils/::1761191393
+Logger.gd::GDScript::4042973711058959054::1761191393::0::1::::<>Node<><>0<>0<><>::
+ObjectPool.gd::GDScript::7556408576035467837::1761191362::0::1::::<>Node<><>0<>0<><>::

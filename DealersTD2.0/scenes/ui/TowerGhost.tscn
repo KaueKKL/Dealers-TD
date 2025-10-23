@@ -1,0 +1,21 @@
+[gd_scene load_steps=2 format=3 uid="uid://7v0jbs2gax0e"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_45bkg"]
+
+[node name="TowerGhost" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+modulate = Color(1, 1, 1, 0.588235)
+self_modulate = Color(1, 1, 1, 0.588235)
+texture_filter = 1
+
+[node name="ValidationArea" type="Area2D" parent="."]
+collision_layer = 5
+collision_mask = 0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ValidationArea"]
+shape = SubResource("RectangleShape2D_45bkg")
+
+[node name="RangeIndicator" type="Line2D" parent="."]
+width = 2.0
+default_color = Color(0.137255, 0.176471, 0.486275, 0.588235)

@@ -1,0 +1,40 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="DealerTD2.0"
+run/main_scene="uid://x1673jlia5c6"
+config/features=PackedStringArray("4.4", "GL Compatibility")
+config/icon="res://icon.svg"
+
+[autoload]
+
+SignalBus="*res://scripts/autoload/SignalBus.gd"
+PlayerState="*res://scripts/autoload/PlayerState.gd"
+GameState="*res://scripts/autoload/GameState.gd"
+WaveManager="*res://scenes/managers/WaveManager.tscn"
+TowerManager="*res://scenes/managers/TowerManager.tscn"
+EnemyManager="*res://scenes/managers/EnemyManager.tscn"
+ChaosEngine="*res://scripts/autoload/ChaosEngine.gd"
+ObjectPool="*res://scripts/utils/ObjectPool.gd"
+Logger="*res://scripts/utils/Logger.gd"
+SceneManager="*res://scripts/autoload/SceneManager.gd"
+
+[layer_names]
+
+2d_physics/layer_1="Towers"
+2d_physics/layer_2="Enemies"
+2d_physics/layer_3="BuildArea"
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"

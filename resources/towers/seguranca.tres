@@ -1,8 +1,8 @@
-[gd_resource type="Resource" script_class="TowerResource" load_steps=5 format=3 uid="uid://00danw8uky01"]
+[gd_resource type="Resource" script_class="TowerResource" load_steps=5 format=3 uid="uid://brlcs1i3fmcci"]
 
 [ext_resource type="Script" uid="uid://dv8u4mpthseie" path="res://scripts/core/TowerResource.gd" id="1_erv6w"]
-[ext_resource type="Script" uid="uid://b7gmb4w5b2khi" path="res://scripts/core/VisualData.gd" id="2_s5545"]
-[ext_resource type="Texture2D" uid="uid://cqe6tyxbd7sxk" path="res://images/Segurança/seguranca_inicial-removebg-preview.png" id="3_10fgy"]
+[ext_resource type="Script" path="res://scripts/core/VisualData.gd" id="2_s5545"]
+[ext_resource type="Texture2D" uid="uid://dth6c17lqath2" path="res://images/Segurança/seguranca_inicial-removebg-preview.png" id="3_10fgy"]
 
 [sub_resource type="Resource" id="Resource_k20g0"]
 script = ExtResource("2_s5545")

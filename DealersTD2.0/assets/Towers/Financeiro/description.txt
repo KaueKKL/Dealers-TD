@@ -1,0 +1,49 @@
+Base Tower: "Consultório Financeiro" (Financial Consultancy)
+
+Description: A small, professional cabin where a lawyer meticulously reviews credit applications, momentarily halting those deemed "unfit."
+
+Mechanics: Single-target moderate "Analysis Damage" (mental/conceptual damage) + chance to "Congelar" (Freeze - brief stun/immobilization).
+
+Visual idea: Simple cabin, lawyer at a desk with a computer, maybe a single filing cabinet. Subtle blue glow when an enemy is "frozen."
+
+Core Evolutions (Linear Progression):
+Evolution 1: "Agência de Cobrança" (Collection Agency)
+
+Description: The cabin expands into a small agency. The lawyer, now backed by enhanced data, applies more forceful "credit holds" on targets.
+
+Mechanics: Increased "Analysis Damage." Higher chance to "Congelar" or a slightly longer "Congelar" duration. Might affect a second nearby target with a weaker "Congelar."
+
+Visual idea: Cabin expands slightly, perhaps a second, smaller desk or more screens. The lawyer looks more stern or focused. Data flows on screens.
+
+Evolution 2: "Central de Processamento de Dívidas" (Debt Processing Hub)
+
+Description: A more robust office with automated systems and a small team. They process multiple financial assessments, locking down groups of debtors.
+
+Mechanics: Damage now splashes in a small area around the primary target, applying "Analysis Damage" and "Congelar" to up to 3 targets. Overall "Analysis DPS" increases due to area coverage.
+
+Visual idea: A small, multi-story office building or a wider single-story office. Multiple screens, maybe a second figure (assistant) or robotic arm organizing files. Digital chains or a larger blue field appearing when targets are frozen.
+
+Evolution 3: "Conselho de Auditoria Global" (Global Audit Council)
+
+Description: A prestigious financial institution. The lawyer leads a sophisticated operation that can initiate widespread audits, bringing all financial irregularities to a halt.
+
+Mechanics: Significantly increased "Analysis Damage." Larger splash radius or more targets affected by "Congelar." The "Auditoria Total" ability is unlocked: a powerful active ability that Paralyses all enemies on screen for 2 seconds (long-duration stun).
+
+Visual idea: A sleek, modern, mid-sized financial building. The lawyer might be in a prominent position. Multiple high-tech screens, data projections. When "Auditoria Total" activates, a large, glowing "AUDITED" stamp or a grid-like energy field might briefly cover the screen/enemies.
+
+Special Evolutions (Branching from Evolution 3):
+Special Evolution A: "Mercado de Capitais Especulativo" (Speculative Capital Market)
+
+Description: This branch focuses on high-risk, high-reward financial maneuvers, exploiting vulnerabilities for explosive gains or losses.
+
+Mechanics: Damage shifts to very high, but potentially volatile. Instead of just "Congelar," attacks now have a chance to apply "Crise de Confiança" (Confidence Crisis): Enemies take increased damage from all sources for a short duration AND are slowed significantly, but the damage is less consistent. The "Auditoria Total" might instead become a "Crash de Mercado" that deals massive burst damage but has a longer cooldown.
+
+Visual idea: The building looks more dynamic, perhaps with jagged data lines or fluctuating stock ticker displays. The lawyer might be aggressively pointing at screens. When "Crise de Confiança" hits, enemies might show red down-arrows or frantic visual effects.
+
+Special Evolution B: "Fundo de Recuperação de Ativos" (Asset Recovery Fund)
+
+Description: This path focuses on reclaiming what's owed, directly weakening and siphoning resources from enemies.
+
+Mechanics: Moderate "Analysis Damage" but now has a chance to "Confiscar Ativos" (Confiscate Assets): Heals the player's primary tower/HP for a small amount for each enemy hit, OR generates a small amount of in-game currency. The "Congelar" effect remains strong, possibly lasting longer. "Auditoria Total" might instead become "Congelamento de Bens" which deals continuous damage over time to all enemies while they are paralyzed for 2 seconds.
+
+Visual idea: The building looks more secure, perhaps with vault-like features or secure data archives. The lawyer might have a stern, resolute expression. When "Confiscar Ativos" activates, glowing coins or energy might fly from enemies back to the player's base.
