@@ -1,9 +1,66 @@
-[gd_scene load_steps=2 format=3 uid="uid://bl5xhd0p6rlfg"]
+[gd_scene load_steps=15 format=3 uid="uid://bl5xhd0p6rlfg"]
 
 [ext_resource type="Script" uid="uid://guddg4bpudta" path="res://scripts/ui/HUD.gd" id="1_kw0id"]
+[ext_resource type="Texture2D" uid="uid://f8jigrl1oug0" path="res://assets/Ui/fase.png" id="2_6ll6g"]
+[ext_resource type="Texture2D" uid="uid://p8i21jlgcjxs" path="res://assets/Ui/fundo.png" id="3_ig75s"]
+[ext_resource type="Texture2D" uid="uid://c6cfubwhhkuik" path="res://assets/Ui/play.png" id="4_ig75s"]
+[ext_resource type="Texture2D" uid="uid://r75dymstxaun" path="res://assets/Ui/2x.png" id="5_4ed8p"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_4ed8p"]
+bg_color = Color(0.0941176, 0.207843, 0.0941176, 0.498039)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_4ed8p"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ig75s"]
+texture = ExtResource("4_ig75s")
+modulate_color = Color(1, 1, 1, 0.270588)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_rnyu1"]
+texture = ExtResource("4_ig75s")
+modulate_color = Color(0.439049, 0.439049, 0.439049, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_jlufg"]
+texture = ExtResource("4_ig75s")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_l20r4"]
+texture = ExtResource("4_ig75s")
+modulate_color = Color(0.817521, 0.817521, 0.817521, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_4ed8p"]
+texture = ExtResource("5_4ed8p")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_euikm"]
+texture = ExtResource("5_4ed8p")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_jvmx1"]
+texture = ExtResource("5_4ed8p")
 
 [node name="HUD" type="CanvasLayer"]
 script = ExtResource("1_kw0id")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_6ll6g")
+expand_mode = 2
+
+[node name="FundoGPS" type="TextureRect" parent="."]
+custom_minimum_size = Vector2(100, 200)
+offset_left = 863.0
+offset_top = 327.0
+offset_right = 1048.0
+offset_bottom = 563.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+texture = ExtResource("3_ig75s")
+expand_mode = 1
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
 anchors_preset = 15
@@ -11,100 +68,150 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-theme_override_constants/margin_left = 15
-theme_override_constants/margin_top = 15
-theme_override_constants/margin_right = 15
-theme_override_constants/margin_bottom = 15
 
 [node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
 layout_mode = 2
-theme_override_constants/separation = 350
+size_flags_stretch_ratio = 0.0
+theme_override_constants/separation = 149
 
-[node name="Menu" type="HBoxContainer" parent="MarginContainer/VBoxContainer"]
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
-theme_override_constants/separation = 250
-alignment = 1
 
-[node name="ComissoesLabel" type="Label" parent="MarginContainer/VBoxContainer/Menu"]
+[node name="Menu" type="HBoxContainer" parent="MarginContainer/VBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 110)
 layout_mode = 2
-size_flags_horizontal = 0
-text = "Comissões: 0"
+theme_override_constants/separation = 285
 
-[node name="WaveLabel" type="Label" parent="MarginContainer/VBoxContainer/Menu"]
+[node name="MarginContainer" type="MarginContainer" parent="MarginContainer/VBoxContainer/VBoxContainer/Menu"]
 layout_mode = 2
-text = "Wave: 0"
+theme_override_constants/margin_left = 100
+theme_override_constants/margin_top = 33
 
-[node name="VidasLabel" type="Label" parent="MarginContainer/VBoxContainer/Menu"]
+[node name="VidasLabel" type="Label" parent="MarginContainer/VBoxContainer/VBoxContainer/Menu/MarginContainer"]
+custom_minimum_size = Vector2(65, 0)
 layout_mode = 2
 size_flags_horizontal = 8
-text = "Vidas: 0"
+theme_override_font_sizes/font_size = 50
+text = "0"
 
-[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/VBoxContainer/Menu"]
+[node name="MarginContainer2" type="MarginContainer" parent="MarginContainer/VBoxContainer/VBoxContainer/Menu"]
+layout_mode = 2
+theme_override_constants/margin_left = 0
+theme_override_constants/margin_top = 16
+
+[node name="ComissoesLabel" type="Label" parent="MarginContainer/VBoxContainer/VBoxContainer/Menu/MarginContainer2"]
+custom_minimum_size = Vector2(250, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_font_sizes/font_size = 24
+theme_override_styles/normal = SubResource("StyleBoxFlat_4ed8p")
+text = "R$ 0"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ReferenceRect" type="ReferenceRect" parent="MarginContainer/VBoxContainer/VBoxContainer/Menu"]
+custom_minimum_size = Vector2(100, 0)
 layout_mode = 2
 
-[node name="StartWaveButton" type="Button" parent="MarginContainer/VBoxContainer/Menu/VBoxContainer"]
+[node name="StartWaveButton" type="Button" parent="MarginContainer/VBoxContainer/VBoxContainer/Menu/ReferenceRect"]
+custom_minimum_size = Vector2(60, 60)
 layout_mode = 2
-text = "Iniciar Wave"
+offset_left = 23.0
+offset_top = 30.0
+offset_right = 83.0
+offset_bottom = 90.0
+size_flags_horizontal = 4
+mouse_default_cursor_shape = 2
+theme_override_styles/focus = SubResource("StyleBoxEmpty_4ed8p")
+theme_override_styles/disabled = SubResource("StyleBoxTexture_ig75s")
+theme_override_styles/hover_pressed = SubResource("StyleBoxTexture_rnyu1")
+theme_override_styles/hover = SubResource("StyleBoxTexture_jlufg")
+theme_override_styles/normal = SubResource("StyleBoxTexture_l20r4")
 
-[node name="SpeedButton" type="Button" parent="MarginContainer/VBoxContainer/Menu/VBoxContainer"]
+[node name="SpeedButton" type="Button" parent="MarginContainer/VBoxContainer/VBoxContainer/Menu/ReferenceRect"]
+custom_minimum_size = Vector2(40, 40)
 layout_mode = 2
-text = "Velocidade (x2)"
+offset_left = 60.0
+offset_top = 22.0
+offset_right = 100.0
+offset_bottom = 62.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_default_cursor_shape = 2
+theme_override_styles/focus = SubResource("StyleBoxEmpty_4ed8p")
+theme_override_styles/hover = SubResource("StyleBoxTexture_4ed8p")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_euikm")
+theme_override_styles/normal = SubResource("StyleBoxTexture_jvmx1")
 
-[node name="Towers" type="HBoxContainer" parent="MarginContainer/VBoxContainer"]
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/VBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 75)
+layout_mode = 2
+alignment = 1
+
+[node name="WaveLabel" type="Label" parent="MarginContainer/VBoxContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "0"
+
+[node name="WaveSeparator" type="Label" parent="MarginContainer/VBoxContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "/"
+
+[node name="WaveLabel2" type="Label" parent="MarginContainer/VBoxContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "12"
+
+[node name="MarginContainer" type="MarginContainer" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 8
+size_flags_vertical = 8
+theme_override_constants/margin_right = 113
+
+[node name="Towers" type="HBoxContainer" parent="MarginContainer/VBoxContainer/MarginContainer"]
 layout_mode = 2
 size_flags_horizontal = 8
 size_flags_vertical = 8
 
-[node name="Col1" type="VBoxContainer" parent="MarginContainer/VBoxContainer/Towers"]
+[node name="Col1" type="VBoxContainer" parent="MarginContainer/VBoxContainer/MarginContainer/Towers"]
 layout_mode = 2
 
-[node name="Oficina" type="Button" parent="MarginContainer/VBoxContainer/Towers/Col1"]
-custom_minimum_size = Vector2(120, 0)
+[node name="Oficina" type="Button" parent="MarginContainer/VBoxContainer/MarginContainer/Towers/Col1"]
+custom_minimum_size = Vector2(80, 70)
 layout_mode = 2
 text = "Oficina
 (50)"
 
-[node name="TestDrive" type="Button" parent="MarginContainer/VBoxContainer/Towers/Col1"]
-custom_minimum_size = Vector2(120, 0)
+[node name="LavaRapido" type="Button" parent="MarginContainer/VBoxContainer/MarginContainer/Towers/Col1"]
+custom_minimum_size = Vector2(80, 70)
 layout_mode = 2
-text = "Test Drive
+text = "LRapd
 (50)"
 
-[node name="LavaRapido" type="Button" parent="MarginContainer/VBoxContainer/Towers/Col1"]
-custom_minimum_size = Vector2(120, 0)
+[node name="Financeiro" type="Button" parent="MarginContainer/VBoxContainer/MarginContainer/Towers/Col1"]
+custom_minimum_size = Vector2(80, 70)
 layout_mode = 2
-text = "Lava Rápido
+text = "Finan
 (50)"
 
-[node name="Financeiro" type="Button" parent="MarginContainer/VBoxContainer/Towers/Col1"]
-custom_minimum_size = Vector2(120, 0)
+[node name="Col2" type="VBoxContainer" parent="MarginContainer/VBoxContainer/MarginContainer/Towers"]
 layout_mode = 2
-text = "Financeiro
+
+[node name="Seguranca" type="Button" parent="MarginContainer/VBoxContainer/MarginContainer/Towers/Col2"]
+custom_minimum_size = Vector2(80, 70)
+layout_mode = 2
+text = "Seg
 (50)"
 
-[node name="Col2" type="VBoxContainer" parent="MarginContainer/VBoxContainer/Towers"]
+[node name="Vendedor" type="Button" parent="MarginContainer/VBoxContainer/MarginContainer/Towers/Col2"]
+custom_minimum_size = Vector2(80, 70)
 layout_mode = 2
-
-[node name="Seguranca" type="Button" parent="MarginContainer/VBoxContainer/Towers/Col2"]
-custom_minimum_size = Vector2(120, 0)
-layout_mode = 2
-text = "Segurança
+text = "Vend
 (50)"
 
-[node name="Vendedor" type="Button" parent="MarginContainer/VBoxContainer/Towers/Col2"]
-custom_minimum_size = Vector2(120, 0)
+[node name="TestDrive" type="Button" parent="MarginContainer/VBoxContainer/MarginContainer/Towers/Col2"]
+custom_minimum_size = Vector2(80, 70)
 layout_mode = 2
-text = "Vendedor
-(50)"
-
-[node name="Test1" type="Button" parent="MarginContainer/VBoxContainer/Towers/Col2"]
-custom_minimum_size = Vector2(120, 0)
-layout_mode = 2
-text = "Test1
-(50)"
-
-[node name="Test2" type="Button" parent="MarginContainer/VBoxContainer/Towers/Col2"]
-custom_minimum_size = Vector2(120, 0)
-layout_mode = 2
-text = "Test2
+text = "TDriv
 (50)"
