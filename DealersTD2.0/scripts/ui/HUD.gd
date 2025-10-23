@@ -7,11 +7,20 @@ extends CanvasLayer
 @onready var wave_label: Label = $MarginContainer/VBoxContainer/Menu/WaveLabel
 @onready var build_oficina_button = $MarginContainer/VBoxContainer/Towers/Col1/Oficina
 @onready var build_vendedor_button = $MarginContainer/VBoxContainer/Towers/Col2/Vendedor
+@onready var build_seguranca_button = $MarginContainer/VBoxContainer/Towers/Col2/Seguranca
+@onready var build_test_drive_button = $MarginContainer/VBoxContainer/Towers/Col2/TestDrive
+@onready var build_lava_rapido_button = $MarginContainer/VBoxContainer/Towers/Col1/LavaRapido
+@onready var build_financeiro_button = $MarginContainer/VBoxContainer/Towers/Col1/Financeiro
 @onready var start_wave_button = $MarginContainer/VBoxContainer/Menu/VBoxContainer/StartWaveButton
 @onready var speed_button = $MarginContainer/VBoxContainer/Menu/VBoxContainer/SpeedButton
 
 # --- Dados (Pré-carregar para os botões) ---
 var oficina_data = preload("res://resources/towers/oficina.tres") # Vamos criar este resource depois
+var financeiro_data = preload("res://resources/towers/financeiro.tres")
+var seguranca_data = preload("res://resources/towers/seguranca.tres")
+var test_drive_data = preload("res://resources/towers/test_drive.tres")
+var lava_jato_data = preload("res://resources/towers/lava_jato.tres")
+var vendedor_data = preload("res://resources/towers/vendedor.tres")
 # var vendedor_data = preload("res://resources/towers/vendedor.tres") # Apenas exemplo
 
 func _ready():
@@ -23,7 +32,11 @@ func _ready():
 
 	# Conecta botões às suas ações
 	build_oficina_button.pressed.connect(_on_build_oficina_pressed)
-	# build_vendedor_button.pressed.connect(_on_build_vendedor_pressed) # Descomentar depois
+	build_financeiro_button.pressed.connect(_on_build_financeiro_pressed)
+	build_lava_rapido_button.pressed.connect(_on_build_lava_rapido_pressed)
+	build_seguranca_button.pressed.connect(_on_build_seguranca_pressed)
+	build_test_drive_button.pressed.connect(_on_build_test_drive_pressed)
+	build_vendedor_button.pressed.connect(_on_build_vendedor_pressed) # Descomentar depois
 	start_wave_button.pressed.connect(_on_start_wave_pressed)
 	speed_button.pressed.connect(_on_speed_button_pressed)
 
@@ -45,9 +58,25 @@ func _on_build_oficina_pressed():
 	if TowerManager and oficina_data:
 		TowerManager.selecionar_torre_para_construir(oficina_data)
 
-#func _on_build_vendedor_pressed():
-#   if TowerManager and vendedor_data:
-#       TowerManager.selecionar_torre_para_construir(vendedor_data)
+func _on_build_vendedor_pressed():
+	if TowerManager and vendedor_data:
+		TowerManager.selecionar_torre_para_construir(vendedor_data)
+		
+func _on_build_financeiro_pressed():
+	if TowerManager and vendedor_data:
+		TowerManager.selecionar_torre_para_construir(financeiro_data)		
+
+func _on_build_seguranca_pressed():
+	if TowerManager and vendedor_data:
+		TowerManager.selecionar_torre_para_construir(seguranca_data)
+
+func _on_build_test_drive_pressed():
+	if TowerManager and vendedor_data:
+		TowerManager.selecionar_torre_para_construir(test_drive_data)
+
+func _on_build_lava_rapido_pressed():
+	if TowerManager and vendedor_data:
+		TowerManager.selecionar_torre_para_construir(lava_jato_data)
 
 func _on_start_wave_pressed(): SignalBus.emit_signal("iniciar_wave_solicitado")
 
