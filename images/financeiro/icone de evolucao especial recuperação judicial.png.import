@@ -2,8 +2,18 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
+uid="uid://cvexpxgib1itx"
+path="res://.godot/imported/icone de evolucao especial recuperação judicial.png-661ffb92934af0a2da60f672ebe9a9d7.ctex"
+=======
+<<<<<<<< HEAD:images/vendedor/vendedor evolucao especial influencer.png.import
+uid="uid://b40shkad7riu6"
+path="res://.godot/imported/vendedor evolucao especial influencer.png-2c5ce3d2f15b65a5938d5c6eff4579f0.ctex"
+========
 uid="uid://bvrefroeqrt8i"
 path="res://.godot/imported/icone de evolucao especial recuperação judicial.png-661ffb92934af0a2da60f672ebe9a9d7.ctex"
+>>>>>>>> 54008be492378b216c37a274aeae5d12f8f17ee7:images/financeiro/icone de evolucao especial recuperação judicial.png.import
+>>>>>>> 54008be492378b216c37a274aeae5d12f8f17ee7
 metadata={
 "vram_texture": false
 }

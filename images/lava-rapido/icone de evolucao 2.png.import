@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
+uid="uid://c64bfdmb862v"
+=======
 uid="uid://bwq7q3ebvoej1"
+>>>>>>> 54008be492378b216c37a274aeae5d12f8f17ee7
 path="res://.godot/imported/icone de evolucao 2.png-704a18606ba77c35ff656fe60313ab77.ctex"
 metadata={
 "vram_texture": false
