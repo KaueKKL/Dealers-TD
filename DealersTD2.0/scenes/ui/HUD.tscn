@@ -183,6 +183,7 @@ layout_mode = 2
 text = "Oficina
 (50)"
 
+<<<<<<< HEAD
 [node name="LavaRapido" type="Button" parent="MarginContainer/VBoxContainer/MarginContainer/Towers/Col1"]
 custom_minimum_size = Vector2(80, 70)
 layout_mode = 2
@@ -191,6 +192,10 @@ text = "LRapd
 
 [node name="Financeiro" type="Button" parent="MarginContainer/VBoxContainer/MarginContainer/Towers/Col1"]
 custom_minimum_size = Vector2(80, 70)
+=======
+[node name="LavaRapido" type="Button" parent="MarginContainer/VBoxContainer/Towers/Col1"]
+custom_minimum_size = Vector2(120, 0)
+>>>>>>> 46ef816e0cbdb10a2ba8fb87cd7efb78cad85398
 layout_mode = 2
 text = "Finan
 (50)"
@@ -210,8 +215,15 @@ layout_mode = 2
 text = "Vend
 (50)"
 
+<<<<<<< HEAD
 [node name="TestDrive" type="Button" parent="MarginContainer/VBoxContainer/MarginContainer/Towers/Col2"]
 custom_minimum_size = Vector2(80, 70)
 layout_mode = 2
 text = "TDriv
+=======
+[node name="TestDrive" type="Button" parent="MarginContainer/VBoxContainer/Towers/Col2"]
+custom_minimum_size = Vector2(120, 0)
+layout_mode = 2
+text = "Test Drive
+>>>>>>> 46ef816e0cbdb10a2ba8fb87cd7efb78cad85398
 (50)"

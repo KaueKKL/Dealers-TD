@@ -1,15 +1,23 @@
-[gd_resource type="Resource" script_class="EnemyResource" load_steps=3 format=3 uid="uid://cbtccjs1p63fy"]
+[gd_resource type="Resource" script_class="EnemyResource" load_steps=5 format=3 uid="uid://bfldsghwrrgue"]
 
 [ext_resource type="Script" uid="uid://ddbrqicg8ta8o" path="res://scripts/core/EnemyResource.gd" id="1_bnyq5"]
-[ext_resource type="Resource" uid="uid://cnm0hmnuaqb83" path="res://resources/enemies/visual_cliente.tres" id="2_n2h67"]
+[ext_resource type="Script" uid="uid://bj121be4mk1co" path="res://scripts/core/VisualData.gd" id="2_kycwt"]
+[ext_resource type="Texture2D" uid="uid://bhw431t3puip2" path="res://assets/Enemies/Cliente Impaciente/animations/walking-4-frames/east/frame_000.png" id="3_0q223"]
+
+[sub_resource type="Resource" id="Resource_j6gsv"]
+script = ExtResource("2_kycwt")
+texture = ExtResource("3_0q223")
+scale = Vector2(0.3, 0.3)
+offset = Vector2(0, 0)
+metadata/_custom_type_script = "uid://bj121be4mk1co"
 
 [resource]
 script = ExtResource("1_bnyq5")
-nome = "Cliente Impaciente"
+nome = "Novo Inimigo"
 descricao = "Descrição do inimigo."
 categoria = "Cliente"
 vida_maxima = 100.0
-velocidade = 50.0
-recompensa_comissao = 25
-visual_data = ExtResource("2_n2h67")
+velocidade = 75.0
+recompensa_comissao = 10
+visual_data = SubResource("Resource_j6gsv")
 metadata/_custom_type_script = "uid://ddbrqicg8ta8o"
