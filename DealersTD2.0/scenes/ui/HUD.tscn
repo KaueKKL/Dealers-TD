@@ -64,12 +64,6 @@ layout_mode = 2
 text = "Oficina
 (50)"
 
-[node name="TestDrive" type="Button" parent="MarginContainer/VBoxContainer/Towers/Col1"]
-custom_minimum_size = Vector2(120, 0)
-layout_mode = 2
-text = "Test Drive
-(50)"
-
 [node name="LavaRapido" type="Button" parent="MarginContainer/VBoxContainer/Towers/Col1"]
 custom_minimum_size = Vector2(120, 0)
 layout_mode = 2
@@ -97,14 +91,8 @@ layout_mode = 2
 text = "Vendedor
 (50)"
 
-[node name="Test1" type="Button" parent="MarginContainer/VBoxContainer/Towers/Col2"]
+[node name="TestDrive" type="Button" parent="MarginContainer/VBoxContainer/Towers/Col2"]
 custom_minimum_size = Vector2(120, 0)
 layout_mode = 2
-text = "Test1
-(50)"
-
-[node name="Test2" type="Button" parent="MarginContainer/VBoxContainer/Towers/Col2"]
-custom_minimum_size = Vector2(120, 0)
-layout_mode = 2
-text = "Test2
+text = "Test Drive
 (50)"

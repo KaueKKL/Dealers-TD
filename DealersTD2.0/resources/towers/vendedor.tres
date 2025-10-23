@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="TowerResource" load_steps=7 format=3 uid="uid://di37luiuyisl3"]
+
+[ext_resource type="Script" uid="uid://cfweocladfno8" path="res://scripts/core/EffectResource.gd" id="1_7ly2r"]
+[ext_resource type="Script" uid="uid://6vadt01oun8w" path="res://scripts/core/TowerResource.gd" id="2_xoknu"]
+[ext_resource type="Script" uid="uid://bj121be4mk1co" path="res://scripts/core/VisualData.gd" id="3_20hwt"]
+[ext_resource type="Texture2D" uid="uid://bw3xw3qadsbkg" path="res://assets/Towers/Vendedor/Vendedor_inicial-removebg-preview.png" id="4_7ly2r"]
+
+[sub_resource type="Resource" id="Resource_ea03x"]
+script = ExtResource("1_7ly2r")
+type = 0
+value = 50.0
+duration = 0.0
+metadata/_custom_type_script = "uid://cfweocladfno8"
+
+[sub_resource type="Resource" id="Resource_t3iye"]
+script = ExtResource("3_20hwt")
+texture = ExtResource("4_7ly2r")
+scale = Vector2(0.4, 0.4)
+offset = Vector2(0, 0)
+metadata/_custom_type_script = "uid://bj121be4mk1co"
+
+[resource]
+script = ExtResource("2_xoknu")
+nome = "Oficina"
+tipo = "Oficina"
+descricao = "Descrição da torre."
+alcance = 150.0
+tempo_ataque = 0.1
+attack_effects = Array[ExtResource("1_7ly2r")]([SubResource("Resource_ea03x")])
+custo_construcao = 50
+visual_data = SubResource("Resource_t3iye")
+metadata/_custom_type_script = "uid://6vadt01oun8w"
