@@ -1,7 +1,7 @@
 [gd_scene load_steps=2 format=3 uid="uid://7v0jbs2gax0e"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_45bkg"]
-size = Vector2(128, 128)
+size = Vector2(96, 96)
 
 [node name="TowerGhost" type="Node2D"]
 

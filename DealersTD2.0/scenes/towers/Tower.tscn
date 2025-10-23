@@ -5,7 +5,7 @@
 [sub_resource type="CircleShape2D" id="CircleShape2D_dw85p"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_dw85p"]
-size = Vector2(128, 128)
+size = Vector2(96, 96)
 
 [node name="Tower" type="Node2D"]
 script = ExtResource("1_cqx8d")
@@ -27,7 +27,3 @@ shape = SubResource("RectangleShape2D_dw85p")
 
 [node name="AttackTimer" type="Timer" parent="."]
 one_shot = true
-
-[connection signal="body_entered" from="RangeArea" to="." method="_on_range_area_body_entered"]
-[connection signal="body_exited" from="RangeArea" to="." method="_on_range_area_body_exited"]
-[connection signal="timeout" from="AttackTimer" to="." method="_on_attack_timer_timeout"]

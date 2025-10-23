@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="TowerResource" load_steps=7 format=3 uid="uid://dyndp75mof3v3"]
+
+[ext_resource type="Script" uid="uid://cfweocladfno8" path="res://scripts/core/EffectResource.gd" id="1_lnxnl"]
+[ext_resource type="Script" uid="uid://6vadt01oun8w" path="res://scripts/core/TowerResource.gd" id="2_80wqf"]
+[ext_resource type="Script" uid="uid://bj121be4mk1co" path="res://scripts/core/VisualData.gd" id="3_x0v1v"]
+<<<<<<< HEAD
+[ext_resource type="Texture2D" uid="uid://bk6j5xca1q55k" path="res://assets/Towers/Oficina/oficina_inicial-removebg-preview.png" id="4_lhhkr"]
+=======
+[ext_resource type="Texture2D" uid="uid://c870yrrnadsf8" path="res://assets/Towers/Oficina/oficina_inicial-removebg-preview.png" id="4_lhhkr"]
+>>>>>>> ba607e56e35331fb5a2eb4fb5efafaa1c92ded01
+
+[sub_resource type="Resource" id="Resource_ea03x"]
+script = ExtResource("1_lnxnl")
+type = 0
+value = 500.0
+duration = 0.0
+metadata/_custom_type_script = "uid://cfweocladfno8"
+
+[sub_resource type="Resource" id="Resource_t3iye"]
+script = ExtResource("3_x0v1v")
+texture = ExtResource("4_lhhkr")
+scale = Vector2(0.4, 0.4)
+offset = Vector2(0, 0)
+metadata/_custom_type_script = "uid://bj121be4mk1co"
+
+[resource]
+script = ExtResource("2_80wqf")
+nome = "Oficina"
+tipo = "Oficina"
+descricao = "Descrição da torre."
+alcance = 150.0
+tempo_ataque = 0.1
+attack_effects = Array[ExtResource("1_lnxnl")]([SubResource("Resource_ea03x")])
+custo_construcao = 50
+visual_data = SubResource("Resource_t3iye")
+metadata/_custom_type_script = "uid://6vadt01oun8w"
