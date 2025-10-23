@@ -1,12 +1,10 @@
-[gd_resource type="Resource" script_class="WaveResource" load_steps=5 format=3 uid="uid://ckjgu2s2m2tvy"]
+[gd_resource type="Resource" script_class="WaveResource" load_steps=4 format=3 uid="uid://ckjgu2s2m2tvy"]
 
 [ext_resource type="Script" uid="uid://0w76da5k4avk" path="res://scripts/core/WaveResource.gd" id="1_6hcvt"]
 [ext_resource type="Script" uid="uid://doi6q3gyaom6y" path="res://scripts/core/WaveSquad.gd" id="2_urn48"]
-[ext_resource type="Resource" uid="uid://cbtccjs1p63fy" path="res://resources/enemies/cliente_impaciente.tres" id="3_urn48"]
 
 [sub_resource type="Resource" id="Resource_01h02"]
 script = ExtResource("2_urn48")
-enemy_type = ExtResource("3_urn48")
 quantity = 10
 spawn_interval = 0.8
 delay_before = 0.0
