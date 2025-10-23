@@ -30,10 +30,6 @@ text = "Vidas: 20"
 [node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
 
-[node name="BotaoConstruirOficina" type="Button" parent="MarginContainer/VBoxContainer/HBoxContainer"]
-layout_mode = 2
-text = "Construir Oficina (50)"
-
 [node name="BotaoIniciarWave" type="Button" parent="MarginContainer/VBoxContainer/HBoxContainer"]
 layout_mode = 2
 text = "Iniciar Wave"
@@ -41,6 +37,33 @@ text = "Iniciar Wave"
 [node name="BotaoVelocidade" type="Button" parent="MarginContainer/VBoxContainer/HBoxContainer"]
 layout_mode = 2
 text = "2x"
+
+[node name="TowersSelect" type="HBoxContainer" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="ConstruirOficina" type="Button" parent="MarginContainer/VBoxContainer/TowersSelect"]
+layout_mode = 2
+text = "Construir Oficina (50)"
+
+[node name="ConstruirFinanceiro" type="Button" parent="MarginContainer/VBoxContainer/TowersSelect"]
+layout_mode = 2
+text = "Construir Financeiro (50)"
+
+[node name="ConstruirLavaRapido" type="Button" parent="MarginContainer/VBoxContainer/TowersSelect"]
+layout_mode = 2
+text = "Construir Lava Rapido (50)"
+
+[node name="ConstruirSeguranca" type="Button" parent="MarginContainer/VBoxContainer/TowersSelect"]
+layout_mode = 2
+text = "Construir Segurança (50)"
+
+[node name="ConstruirTestDrive" type="Button" parent="MarginContainer/VBoxContainer/TowersSelect"]
+layout_mode = 2
+text = "Construir Test Drive (50)"
+
+[node name="ConstruirVendedor" type="Button" parent="MarginContainer/VBoxContainer/TowersSelect"]
+layout_mode = 2
+text = "Construir Vendedor (50)"
 
 [node name="LabelWave" type="Label" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2

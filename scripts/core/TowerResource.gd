@@ -10,5 +10,8 @@ extends Resource
 @export var alcance: float = 200.0
 @export var tempo_ataque: float = 1.0 # Segundos entre ataques
 
+@export_group("visual")
+@export var visual_data: VisualData
+
 @export_group("Economia")
 @export var custo_construcao: int = 100

@@ -19,10 +19,14 @@ func _ready():
 		push_error("Torre não tem um arquivo de dados (TowerResource) atribuído!")
 		set_process(false) # Desabilita a torre se não for válida
 		return
-
+	if data.visual_data:
+		sprite.texture = data.visual_data.texture
+		sprite.scale = data.visual_data.scale
+		sprite.offset = data.visual_data.offset
+		
 	range_shape.shape.radius = data.alcance
 	attack_timer.wait_time = data.tempo_ataque
-
+	
 	# Conecta o sinal do timer de ataque à função que permite atirar novamente
 	attack_timer.timeout.connect(_on_attack_timer_timeout)
 
@@ -57,7 +61,6 @@ func atirar():
 	novo_projetil.global_position = global_position
 	novo_projetil.direcao = (alvo_atual.global_position - global_position).normalized()
 
-	# Adiciona o projétil à cena principal para que ele não gire com a torre
 	get_tree().current_scene.add_child(novo_projetil)
 
 func _on_attack_timer_timeout():

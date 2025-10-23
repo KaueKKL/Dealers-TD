@@ -1,14 +1,9 @@
-[gd_scene load_steps=13 format=3 uid="uid://das065afgpotu"]
+[gd_scene load_steps=8 format=3 uid="uid://das065afgpotu"]
 
 [ext_resource type="Script" uid="uid://dovq1cr3dbrip" path="res://scripts/gameplay/Level.gd" id="1_i2pqh"]
 [ext_resource type="PackedScene" uid="uid://qsaqcp2ja7qw" path="res://scenes/towers/Tower.tscn" id="3_rd8yo"]
-[ext_resource type="Resource" uid="uid://cfrni8os8jocu" path="res://resources/towers/financeiro.tres" id="4_h7kxv"]
+[ext_resource type="Resource" uid="uid://cs6ju6065k2xf" path="res://resources/towers/oficina.tres" id="4_h7kxv"]
 [ext_resource type="PackedScene" uid="uid://cipvoac63mly" path="res://scenes/ui/HUD.tscn" id="4_rd8yo"]
-[ext_resource type="Resource" uid="uid://dmglt1cob2jax" path="res://resources/towers/test-drive.tres" id="5_h7kxv"]
-[ext_resource type="Resource" uid="uid://6gdvqtp1fo0b" path="res://resources/towers/lava-rapido.tres" id="6_n4om3"]
-[ext_resource type="Resource" uid="uid://yk1q3ek1mh8d" path="res://resources/towers/vendedor.tres" id="7_dthn1"]
-[ext_resource type="Resource" uid="uid://00danw8uky01" path="res://resources/towers/seguranca.tres" id="8_dxxhj"]
-[ext_resource type="Resource" uid="uid://cs6ju6065k2xf" path="res://resources/towers/oficina.tres" id="9_dthn1"]
 
 [sub_resource type="Curve2D" id="Curve2D_a01y6"]
 _data = {
@@ -49,25 +44,5 @@ shape = SubResource("SegmentShape2D_gsbbr")
 [node name="Hud" parent="." instance=ExtResource("4_rd8yo")]
 
 [node name="Tower" parent="." instance=ExtResource("3_rd8yo")]
-position = Vector2(102, 294)
+position = Vector2(353, 152)
 data = ExtResource("4_h7kxv")
-
-[node name="Tower2" parent="." instance=ExtResource("3_rd8yo")]
-position = Vector2(249, 294)
-data = ExtResource("5_h7kxv")
-
-[node name="Tower3" parent="." instance=ExtResource("3_rd8yo")]
-position = Vector2(337, 296)
-data = ExtResource("6_n4om3")
-
-[node name="Tower4" parent="." instance=ExtResource("3_rd8yo")]
-position = Vector2(435, 300)
-data = ExtResource("7_dthn1")
-
-[node name="Tower5" parent="." instance=ExtResource("3_rd8yo")]
-position = Vector2(575, 297)
-data = ExtResource("8_dxxhj")
-
-[node name="Tower6" parent="." instance=ExtResource("3_rd8yo")]
-position = Vector2(679, 297)
-data = ExtResource("9_dthn1")

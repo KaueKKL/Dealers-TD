@@ -1,6 +1,15 @@
-[gd_resource type="Resource" script_class="TowerResource" load_steps=2 format=3 uid="uid://cs6ju6065k2xf"]
+[gd_resource type="Resource" script_class="TowerResource" load_steps=5 format=3 uid="uid://cs6ju6065k2xf"]
 
 [ext_resource type="Script" uid="uid://dv8u4mpthseie" path="res://scripts/core/TowerResource.gd" id="1_ea6uh"]
+[ext_resource type="Script" uid="uid://b7gmb4w5b2khi" path="res://scripts/core/VisualData.gd" id="2_80wqf"]
+[ext_resource type="Texture2D" uid="uid://dc8wlype8f7e" path="res://images/oficina/oficina_inicial-removebg-preview.png" id="3_x0v1v"]
+
+[sub_resource type="Resource" id="Resource_lhhkr"]
+script = ExtResource("2_80wqf")
+texture = ExtResource("3_x0v1v")
+scale = Vector2(0.4, 0.4)
+offset = Vector2(0, 0)
+metadata/_custom_type_script = "uid://b7gmb4w5b2khi"
 
 [resource]
 script = ExtResource("1_ea6uh")
@@ -10,5 +19,6 @@ mecanica = "Dano físico + lentidão"
 dano = 50.0
 alcance = 100.0
 tempo_ataque = 0.5
+visual_data = SubResource("Resource_lhhkr")
 custo_construcao = 50
 metadata/_custom_type_script = "uid://dv8u4mpthseie"
