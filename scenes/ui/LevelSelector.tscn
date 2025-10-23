@@ -1,0 +1,266 @@
+[gd_scene load_steps=26 format=3 uid="uid://bq85ryo5401p1"]
+
+[ext_resource type="Script" uid="uid://b8fqurwehjiwv" path="res://scenes/ui/LevelSelector.gd" id="1_ag8rw"]
+[ext_resource type="Texture2D" uid="uid://beqi65vdswtfs" path="res://images/ui/level_selector.png" id="2_s0din"]
+[ext_resource type="Texture2D" uid="uid://p8i21jlgcjxs" path="res://images/ui/fundo.png" id="3_s0din"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_xa38l"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_vqrkd"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_xdiqg"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_oufs3"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_2pkmu"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_yvd70"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jsv1k"]
+bg_color = Color(1, 1, 1, 0.286275)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_vgkmy"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_hqwx3"]
+bg_color = Color(0, 0, 0, 0.258824)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_mad4c"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_em0r1"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_jsv1k"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_hqwx3"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_em0r1"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_k4dd4"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_lcv28"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_q7s41"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_cnj8x"]
+bg_color = Color(0.28189, 0.521745, 0.147543, 1)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(0.168627, 0.301961, 0, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_85ms7"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_iaf6i"]
+bg_color = Color(0.160484, 0.311461, 0.0767714, 1)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(0.168627, 0.301961, 0, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_l0e1f"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_yk6lo"]
+bg_color = Color(0.196078, 0.372549, 0.0980392, 1)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(0.168842, 0.302355, 0, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+
+[node name="LevelSelector" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource("1_ag8rw")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 5
+theme_override_constants/margin_top = 5
+theme_override_constants/margin_right = 5
+theme_override_constants/margin_bottom = 5
+
+[node name="TextureRect" type="TextureRect" parent="MarginContainer"]
+layout_mode = 2
+texture = ExtResource("2_s0din")
+expand_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+alignment = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 215)
+layout_mode = 2
+theme_override_constants/separation = 32
+alignment = 1
+
+[node name="Voltar" type="Button" parent="MarginContainer/VBoxContainer/HBoxContainer"]
+custom_minimum_size = Vector2(115, 90)
+layout_mode = 2
+size_flags_vertical = 0
+mouse_default_cursor_shape = 2
+theme_override_styles/focus = SubResource("StyleBoxEmpty_xa38l")
+theme_override_styles/disabled_mirrored = SubResource("StyleBoxEmpty_vqrkd")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_xdiqg")
+theme_override_styles/hover_pressed_mirrored = SubResource("StyleBoxEmpty_oufs3")
+theme_override_styles/hover_pressed = SubResource("StyleBoxEmpty_2pkmu")
+theme_override_styles/hover_mirrored = SubResource("StyleBoxEmpty_yvd70")
+theme_override_styles/hover = SubResource("StyleBoxFlat_jsv1k")
+theme_override_styles/pressed_mirrored = SubResource("StyleBoxEmpty_vgkmy")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_hqwx3")
+theme_override_styles/normal_mirrored = SubResource("StyleBoxEmpty_mad4c")
+theme_override_styles/normal = SubResource("StyleBoxFlat_em0r1")
+
+[node name="FundoGPS" type="TextureRect" parent="."]
+custom_minimum_size = Vector2(200, 200)
+offset_left = 279.0
+offset_top = 153.0
+offset_right = 877.0
+offset_bottom = 400.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+texture = ExtResource("3_s0din")
+expand_mode = 1
+
+[node name="GridContainer" type="GridContainer" parent="FundoGPS"]
+layout_mode = 0
+offset_left = 135.0
+offset_top = 36.0
+offset_right = 488.0
+offset_bottom = 202.0
+theme_override_constants/h_separation = 64
+theme_override_constants/v_separation = 16
+columns = 3
+
+[node name="Fase1" type="Button" parent="FundoGPS/GridContainer"]
+custom_minimum_size = Vector2(75, 75)
+layout_mode = 2
+mouse_default_cursor_shape = 2
+theme_override_font_sizes/font_size = 32
+theme_override_styles/focus = SubResource("StyleBoxEmpty_jsv1k")
+theme_override_styles/disabled_mirrored = SubResource("StyleBoxEmpty_hqwx3")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_em0r1")
+theme_override_styles/hover_pressed_mirrored = SubResource("StyleBoxEmpty_k4dd4")
+theme_override_styles/hover_pressed = SubResource("StyleBoxEmpty_lcv28")
+theme_override_styles/hover_mirrored = SubResource("StyleBoxEmpty_q7s41")
+theme_override_styles/hover = SubResource("StyleBoxFlat_cnj8x")
+theme_override_styles/pressed_mirrored = SubResource("StyleBoxEmpty_85ms7")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_iaf6i")
+theme_override_styles/normal_mirrored = SubResource("StyleBoxEmpty_l0e1f")
+theme_override_styles/normal = SubResource("StyleBoxFlat_yk6lo")
+text = "01"
+
+[node name="Fase2" type="Button" parent="FundoGPS/GridContainer"]
+custom_minimum_size = Vector2(75, 75)
+layout_mode = 2
+mouse_default_cursor_shape = 2
+theme_override_font_sizes/font_size = 32
+theme_override_styles/focus = SubResource("StyleBoxEmpty_jsv1k")
+theme_override_styles/disabled_mirrored = SubResource("StyleBoxEmpty_hqwx3")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_em0r1")
+theme_override_styles/hover_pressed_mirrored = SubResource("StyleBoxEmpty_k4dd4")
+theme_override_styles/hover_pressed = SubResource("StyleBoxEmpty_lcv28")
+theme_override_styles/hover_mirrored = SubResource("StyleBoxEmpty_q7s41")
+theme_override_styles/hover = SubResource("StyleBoxFlat_cnj8x")
+theme_override_styles/pressed_mirrored = SubResource("StyleBoxEmpty_85ms7")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_iaf6i")
+theme_override_styles/normal_mirrored = SubResource("StyleBoxEmpty_l0e1f")
+theme_override_styles/normal = SubResource("StyleBoxFlat_yk6lo")
+text = "02"
+
+[node name="Fase3" type="Button" parent="FundoGPS/GridContainer"]
+custom_minimum_size = Vector2(75, 75)
+layout_mode = 2
+mouse_default_cursor_shape = 2
+theme_override_font_sizes/font_size = 32
+theme_override_styles/focus = SubResource("StyleBoxEmpty_jsv1k")
+theme_override_styles/disabled_mirrored = SubResource("StyleBoxEmpty_hqwx3")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_em0r1")
+theme_override_styles/hover_pressed_mirrored = SubResource("StyleBoxEmpty_k4dd4")
+theme_override_styles/hover_pressed = SubResource("StyleBoxEmpty_lcv28")
+theme_override_styles/hover_mirrored = SubResource("StyleBoxEmpty_q7s41")
+theme_override_styles/hover = SubResource("StyleBoxFlat_cnj8x")
+theme_override_styles/pressed_mirrored = SubResource("StyleBoxEmpty_85ms7")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_iaf6i")
+theme_override_styles/normal_mirrored = SubResource("StyleBoxEmpty_l0e1f")
+theme_override_styles/normal = SubResource("StyleBoxFlat_yk6lo")
+text = "03"
+
+[node name="Fase4" type="Button" parent="FundoGPS/GridContainer"]
+custom_minimum_size = Vector2(75, 75)
+layout_mode = 2
+mouse_default_cursor_shape = 2
+theme_override_font_sizes/font_size = 32
+theme_override_styles/focus = SubResource("StyleBoxEmpty_jsv1k")
+theme_override_styles/disabled_mirrored = SubResource("StyleBoxEmpty_hqwx3")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_em0r1")
+theme_override_styles/hover_pressed_mirrored = SubResource("StyleBoxEmpty_k4dd4")
+theme_override_styles/hover_pressed = SubResource("StyleBoxEmpty_lcv28")
+theme_override_styles/hover_mirrored = SubResource("StyleBoxEmpty_q7s41")
+theme_override_styles/hover = SubResource("StyleBoxFlat_cnj8x")
+theme_override_styles/pressed_mirrored = SubResource("StyleBoxEmpty_85ms7")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_iaf6i")
+theme_override_styles/normal_mirrored = SubResource("StyleBoxEmpty_l0e1f")
+theme_override_styles/normal = SubResource("StyleBoxFlat_yk6lo")
+text = "04"
+
+[node name="Fase5" type="Button" parent="FundoGPS/GridContainer"]
+custom_minimum_size = Vector2(75, 75)
+layout_mode = 2
+mouse_default_cursor_shape = 2
+theme_override_font_sizes/font_size = 32
+theme_override_styles/focus = SubResource("StyleBoxEmpty_jsv1k")
+theme_override_styles/disabled_mirrored = SubResource("StyleBoxEmpty_hqwx3")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_em0r1")
+theme_override_styles/hover_pressed_mirrored = SubResource("StyleBoxEmpty_k4dd4")
+theme_override_styles/hover_pressed = SubResource("StyleBoxEmpty_lcv28")
+theme_override_styles/hover_mirrored = SubResource("StyleBoxEmpty_q7s41")
+theme_override_styles/hover = SubResource("StyleBoxFlat_cnj8x")
+theme_override_styles/pressed_mirrored = SubResource("StyleBoxEmpty_85ms7")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_iaf6i")
+theme_override_styles/normal_mirrored = SubResource("StyleBoxEmpty_l0e1f")
+theme_override_styles/normal = SubResource("StyleBoxFlat_yk6lo")
+text = "05"
+
+[node name="Fase6" type="Button" parent="FundoGPS/GridContainer"]
+custom_minimum_size = Vector2(75, 75)
+layout_mode = 2
+mouse_default_cursor_shape = 2
+theme_override_font_sizes/font_size = 32
+theme_override_styles/focus = SubResource("StyleBoxEmpty_jsv1k")
+theme_override_styles/disabled_mirrored = SubResource("StyleBoxEmpty_hqwx3")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_em0r1")
+theme_override_styles/hover_pressed_mirrored = SubResource("StyleBoxEmpty_k4dd4")
+theme_override_styles/hover_pressed = SubResource("StyleBoxEmpty_lcv28")
+theme_override_styles/hover_mirrored = SubResource("StyleBoxEmpty_q7s41")
+theme_override_styles/hover = SubResource("StyleBoxFlat_cnj8x")
+theme_override_styles/pressed_mirrored = SubResource("StyleBoxEmpty_85ms7")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_iaf6i")
+theme_override_styles/normal_mirrored = SubResource("StyleBoxEmpty_l0e1f")
+theme_override_styles/normal = SubResource("StyleBoxFlat_yk6lo")
+text = "06"

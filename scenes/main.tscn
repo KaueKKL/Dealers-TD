@@ -1,0 +1,117 @@
+[gd_scene load_steps=19 format=3 uid="uid://dxabgm606y34t"]
+
+[ext_resource type="Script" uid="uid://ctc4uskov28te" path="res://scripts/ui/MainMenu.gd" id="1_jyhfs"]
+[ext_resource type="Texture2D" uid="uid://cedfvd6h35g2f" path="res://images/ui/portao.png" id="1_sugp2"]
+[ext_resource type="Texture2D" uid="uid://baptotmyjkkhr" path="res://images/ui/jogar.png" id="2_jyhfs"]
+[ext_resource type="Texture2D" uid="uid://bi84qq816g3uv" path="res://images/ui/sair.png" id="3_tbgi4"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_jkv2x"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_jbj1t"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_muem4"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_dp3eg"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_0wfyh"]
+texture = ExtResource("2_jyhfs")
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_gqmmt"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_tbgi4"]
+texture = ExtResource("2_jyhfs")
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_jscy8"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_sugp2"]
+texture = ExtResource("2_jyhfs")
+modulate_color = Color(0.779291, 0.779291, 0.779291, 1)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_y6deb"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_jyhfs"]
+texture = ExtResource("2_jyhfs")
+modulate_color = Color(0.899258, 0.899258, 0.899258, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_tefeu"]
+texture = ExtResource("3_tbgi4")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_o6xl0"]
+texture = ExtResource("3_tbgi4")
+modulate_color = Color(0.60933, 0.60933, 0.60933, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_tipki"]
+texture = ExtResource("3_tbgi4")
+modulate_color = Color(0.881937, 0.881937, 0.881937, 1)
+
+[node name="Main" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource("1_jyhfs")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 5
+theme_override_constants/margin_top = 5
+theme_override_constants/margin_right = 5
+theme_override_constants/margin_bottom = 5
+
+[node name="TextureRect" type="TextureRect" parent="MarginContainer"]
+layout_mode = 2
+texture = ExtResource("1_sugp2")
+expand_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+alignment = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 150)
+layout_mode = 2
+theme_override_constants/separation = 32
+alignment = 1
+
+[node name="Jogar" type="Button" parent="MarginContainer/VBoxContainer/HBoxContainer"]
+custom_minimum_size = Vector2(200, 80)
+layout_mode = 2
+size_flags_vertical = 0
+mouse_default_cursor_shape = 2
+theme_override_styles/focus = SubResource("StyleBoxEmpty_jkv2x")
+theme_override_styles/disabled_mirrored = SubResource("StyleBoxEmpty_jbj1t")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_muem4")
+theme_override_styles/hover_pressed_mirrored = SubResource("StyleBoxEmpty_dp3eg")
+theme_override_styles/hover_pressed = SubResource("StyleBoxTexture_0wfyh")
+theme_override_styles/hover_mirrored = SubResource("StyleBoxEmpty_gqmmt")
+theme_override_styles/hover = SubResource("StyleBoxTexture_tbgi4")
+theme_override_styles/pressed_mirrored = SubResource("StyleBoxEmpty_jscy8")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_sugp2")
+theme_override_styles/normal_mirrored = SubResource("StyleBoxEmpty_y6deb")
+theme_override_styles/normal = SubResource("StyleBoxTexture_jyhfs")
+
+[node name="Sair" type="Button" parent="MarginContainer/VBoxContainer/HBoxContainer"]
+custom_minimum_size = Vector2(200, 80)
+layout_mode = 2
+size_flags_vertical = 0
+mouse_default_cursor_shape = 2
+theme_override_styles/focus = SubResource("StyleBoxEmpty_jkv2x")
+theme_override_styles/disabled_mirrored = SubResource("StyleBoxEmpty_jbj1t")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_muem4")
+theme_override_styles/hover_pressed_mirrored = SubResource("StyleBoxEmpty_dp3eg")
+theme_override_styles/hover_pressed = SubResource("StyleBoxTexture_tefeu")
+theme_override_styles/hover_mirrored = SubResource("StyleBoxEmpty_gqmmt")
+theme_override_styles/hover = SubResource("StyleBoxTexture_tefeu")
+theme_override_styles/pressed_mirrored = SubResource("StyleBoxEmpty_jscy8")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_o6xl0")
+theme_override_styles/normal_mirrored = SubResource("StyleBoxEmpty_y6deb")
+theme_override_styles/normal = SubResource("StyleBoxTexture_tipki")
