@@ -4,14 +4,14 @@ extends Area2D
 
 var velocidade: float = 400.0
 var dano: float = 0.0
-var direcao: Vector2 = Vector2.RIGHT # Direção inicial padrão
+var direcao: Vector2 = Vector2.RIGHT 
 
 func _ready():
 	# Conecta o sinal de colisão a si mesmo
 	self.body_entered.connect(_on_body_entered)
 
 func _process(delta: float):
-	# Move o projétil na direção definida
+
 	global_position += direcao * velocidade * delta
 
 func _on_body_entered(body: Node2D):

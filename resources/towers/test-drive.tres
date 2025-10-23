@@ -1,6 +1,15 @@
-[gd_resource type="Resource" script_class="TowerResource" load_steps=2 format=3 uid="uid://dmglt1cob2jax"]
+[gd_resource type="Resource" script_class="TowerResource" load_steps=5 format=3 uid="uid://dmglt1cob2jax"]
 
 [ext_resource type="Script" uid="uid://dv8u4mpthseie" path="res://scripts/core/TowerResource.gd" id="1_jki8t"]
+[ext_resource type="Script" uid="uid://b7gmb4w5b2khi" path="res://scripts/core/VisualData.gd" id="2_twe5p"]
+[ext_resource type="Texture2D" uid="uid://b1hpko8w2035l" path="res://images/test-drive/base-removebg-preview.png" id="3_4aywm"]
+
+[sub_resource type="Resource" id="Resource_h3mst"]
+script = ExtResource("2_twe5p")
+texture = ExtResource("3_4aywm")
+scale = Vector2(0.4, 0.4)
+offset = Vector2(0, 0)
+metadata/_custom_type_script = "uid://b7gmb4w5b2khi"
 
 [resource]
 script = ExtResource("1_jki8t")
@@ -10,5 +19,6 @@ mecanica = "Dano massivo por atropelamento."
 dano = 10.0
 alcance = 200.0
 tempo_ataque = 1.0
+visual_data = SubResource("Resource_h3mst")
 custo_construcao = 100
 metadata/_custom_type_script = "uid://dv8u4mpthseie"

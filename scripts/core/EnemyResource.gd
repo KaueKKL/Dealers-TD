@@ -8,5 +8,8 @@ extends Resource
 @export var vida_maxima: float = 100.0
 @export var velocidade: float = 75.0
 
+@export_group("visual")
+@export var visual_data: VisualData
+
 @export_group("Economia")
 @export var recompensa_comissao: int = 10
