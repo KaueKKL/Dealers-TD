@@ -2,12 +2,12 @@
 
 [ext_resource type="Script" uid="uid://ddbrqicg8ta8o" path="res://scripts/core/EnemyResource.gd" id="1_bnyq5"]
 [ext_resource type="Script" uid="uid://bj121be4mk1co" path="res://scripts/core/VisualData.gd" id="2_kycwt"]
-[ext_resource type="Texture2D" uid="uid://bhw431t3puip2" path="res://assets/Enemies/Cliente Impaciente/animations/walking-4-frames/east/frame_000.png" id="3_0q223"]
+[ext_resource type="Texture2D" uid="uid://b0b2qeks6r4gs" path="res://assets/Enemies/Cliente Impaciente/animations/walking-4-frames/east/frame_000.png" id="3_kycwt"]
 
 [sub_resource type="Resource" id="Resource_j6gsv"]
 script = ExtResource("2_kycwt")
-texture = ExtResource("3_0q223")
-scale = Vector2(0.3, 0.3)
+texture = ExtResource("3_kycwt")
+scale = Vector2(1, 1)
 offset = Vector2(0, 0)
 metadata/_custom_type_script = "uid://bj121be4mk1co"
 

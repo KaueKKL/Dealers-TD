@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="EnemyResource" load_steps=5 format=3 uid="uid://cpj2sytp36bsf"]
+
+[ext_resource type="Script" uid="uid://ddbrqicg8ta8o" path="res://scripts/core/EnemyResource.gd" id="1_38fph"]
+[ext_resource type="Script" uid="uid://bj121be4mk1co" path="res://scripts/core/VisualData.gd" id="2_ivqv5"]
+[ext_resource type="Texture2D" uid="uid://bdff6oj06qwip" path="res://assets/Enemies/Concorrente Sabotador/animations/walking-4-frames/east/frame_000.png" id="3_tx44b"]
+
+[sub_resource type="Resource" id="Resource_kbc1d"]
+script = ExtResource("2_ivqv5")
+texture = ExtResource("3_tx44b")
+scale = Vector2(1, 1)
+offset = Vector2(0, 0)
+metadata/_custom_type_script = "uid://bj121be4mk1co"
+
+[resource]
+script = ExtResource("1_38fph")
+nome = "Concorrente Sabotador"
+descricao = "Descrição do inimigo."
+categoria = "Concorrente"
+vida_maxima = 50.0
+velocidade = 100.0
+recompensa_comissao = 15
+visual_data = SubResource("Resource_kbc1d")
+metadata/_custom_type_script = "uid://ddbrqicg8ta8o"

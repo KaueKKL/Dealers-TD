@@ -3,7 +3,7 @@
 [ext_resource type="Script" uid="uid://cfweocladfno8" path="res://scripts/core/EffectResource.gd" id="1_8v80a"]
 [ext_resource type="Script" uid="uid://6vadt01oun8w" path="res://scripts/core/TowerResource.gd" id="2_k88og"]
 [ext_resource type="Script" uid="uid://bj121be4mk1co" path="res://scripts/core/VisualData.gd" id="3_qlso8"]
-[ext_resource type="Texture2D" uid="uid://c7vl6wlpnvq68" path="res://assets/Towers/TestDrive/base-removebg-preview.png" id="4_8v80a"]
+[ext_resource type="Texture2D" uid="uid://c8irpkfhv8ame" path="res://assets/Towers/TestDrive/base-removebg-preview.png" id="4_8v80a"]
 
 [sub_resource type="Resource" id="Resource_ea03x"]
 script = ExtResource("1_8v80a")

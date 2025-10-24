@@ -1,15 +1,22 @@
-[gd_resource type="Resource" script_class="TowerResource" load_steps=7 format=3 uid="uid://dnkttfcogxom3"]
+[gd_resource type="Resource" script_class="TowerResource" load_steps=8 format=3 uid="uid://dnkttfcogxom3"]
 
 [ext_resource type="Script" uid="uid://cfweocladfno8" path="res://scripts/core/EffectResource.gd" id="1_bxl4q"]
 [ext_resource type="Script" uid="uid://6vadt01oun8w" path="res://scripts/core/TowerResource.gd" id="2_b74dm"]
 [ext_resource type="Script" uid="uid://bj121be4mk1co" path="res://scripts/core/VisualData.gd" id="3_x8xft"]
-[ext_resource type="Texture2D" uid="uid://b5ttxrkl6wuje" path="res://assets/Towers/Financeiro/Financeiro.png" id="4_bxl4q"]
+[ext_resource type="Texture2D" uid="uid://bfv8uw3xsgbjv" path="res://assets/Towers/Financeiro/Financeiro.png" id="4_bxl4q"]
 
 [sub_resource type="Resource" id="Resource_ea03x"]
 script = ExtResource("1_bxl4q")
 type = 0
-value = 500.0
+value = 20.0
 duration = 0.0
+metadata/_custom_type_script = "uid://cfweocladfno8"
+
+[sub_resource type="Resource" id="Resource_bxl4q"]
+script = ExtResource("1_bxl4q")
+type = 1
+value = 10.0
+duration = 2.0
 metadata/_custom_type_script = "uid://cfweocladfno8"
 
 [sub_resource type="Resource" id="Resource_t3iye"]
@@ -24,9 +31,9 @@ script = ExtResource("2_b74dm")
 nome = "Oficina"
 tipo = "Oficina"
 descricao = "Descrição da torre."
-alcance = 150.0
-tempo_ataque = 0.1
-attack_effects = Array[ExtResource("1_bxl4q")]([SubResource("Resource_ea03x")])
+alcance = 200.0
+tempo_ataque = 0.5
+attack_effects = Array[ExtResource("1_bxl4q")]([SubResource("Resource_ea03x"), SubResource("Resource_bxl4q")])
 custo_construcao = 50
 visual_data = SubResource("Resource_t3iye")
 metadata/_custom_type_script = "uid://6vadt01oun8w"

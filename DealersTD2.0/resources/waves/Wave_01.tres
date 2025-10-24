@@ -7,8 +7,8 @@
 [sub_resource type="Resource" id="Resource_01h02"]
 script = ExtResource("2_urn48")
 enemy_type = ExtResource("3_urn48")
-quantity = 10
-spawn_interval = 0.8
+quantity = 5
+spawn_interval = 2.0
 delay_before = 0.0
 metadata/_custom_type_script = "uid://doi6q3gyaom6y"
 

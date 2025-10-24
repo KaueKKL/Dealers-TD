@@ -1,9 +1,54 @@
-[gd_scene load_steps=4 format=3 uid="uid://kdqx7psdol0u"]
+[gd_scene load_steps=16 format=3 uid="uid://kdqx7psdol0u"]
 
 [ext_resource type="Script" uid="uid://deetdfwjprp3c" path="res://scripts/autoload/WaveManager.gd" id="1_vg8ia"]
 [ext_resource type="Script" uid="uid://0w76da5k4avk" path="res://scripts/core/WaveResource.gd" id="2_mw246"]
 [ext_resource type="Resource" uid="uid://ckjgu2s2m2tvy" path="res://resources/waves/Wave_01.tres" id="3_3ed7e"]
+[ext_resource type="Resource" uid="uid://csqho8r1pagxy" path="res://resources/waves/Wave_02.tres" id="4_6i6sc"]
+[ext_resource type="Resource" uid="uid://c2vj0dy8faenu" path="res://resources/waves/Wave_03.tres" id="5_lbvjq"]
+[ext_resource type="Resource" uid="uid://cno5q3jfck1sv" path="res://resources/waves/Wave_04.tres" id="6_52oth"]
+[ext_resource type="Script" uid="uid://doi6q3gyaom6y" path="res://scripts/core/WaveSquad.gd" id="7_axjjq"]
+[ext_resource type="Resource" uid="uid://bfldsghwrrgue" path="res://resources/enemies/cliente_impaciente.tres" id="8_ndxeb"]
+[ext_resource type="Resource" uid="uid://q0svq3q26hl7" path="res://resources/enemies/Fiscal_Governo.tres" id="9_3xvi7"]
+[ext_resource type="Resource" uid="uid://cpj2sytp36bsf" path="res://resources/enemies/Concorrente_Sabotador.tres" id="10_wk6av"]
+
+[sub_resource type="Resource" id="Resource_n2o04"]
+script = ExtResource("7_axjjq")
+enemy_type = ExtResource("8_ndxeb")
+quantity = 6
+spawn_interval = 3.0
+delay_before = 1.0
+metadata/_custom_type_script = "uid://doi6q3gyaom6y"
+
+[sub_resource type="Resource" id="Resource_5ps7j"]
+script = ExtResource("7_axjjq")
+enemy_type = ExtResource("9_3xvi7")
+quantity = 3
+spawn_interval = 6.0
+delay_before = 1.0
+metadata/_custom_type_script = "uid://doi6q3gyaom6y"
+
+[sub_resource type="Resource" id="Resource_4wg7g"]
+script = ExtResource("7_axjjq")
+enemy_type = ExtResource("10_wk6av")
+quantity = 8
+spawn_interval = 1.5
+delay_before = 0.0
+metadata/_custom_type_script = "uid://doi6q3gyaom6y"
+
+[sub_resource type="Resource" id="Resource_hrkqd"]
+script = ExtResource("7_axjjq")
+enemy_type = ExtResource("9_3xvi7")
+quantity = 5
+spawn_interval = 1.0
+delay_before = 0.0
+metadata/_custom_type_script = "uid://doi6q3gyaom6y"
+
+[sub_resource type="Resource" id="Resource_i8ij8"]
+script = ExtResource("2_mw246")
+wave_number = 1
+squads = Array[ExtResource("7_axjjq")]([SubResource("Resource_n2o04"), SubResource("Resource_5ps7j"), SubResource("Resource_4wg7g"), SubResource("Resource_hrkqd")])
+metadata/_custom_type_script = "uid://0w76da5k4avk"
 
 [node name="WaveManager" type="Node"]
 script = ExtResource("1_vg8ia")
-predefined_waves = Array[ExtResource("2_mw246")]([ExtResource("3_3ed7e")])
+predefined_waves = Array[ExtResource("2_mw246")]([ExtResource("3_3ed7e"), ExtResource("4_6i6sc"), ExtResource("5_lbvjq"), ExtResource("6_52oth"), SubResource("Resource_i8ij8")])

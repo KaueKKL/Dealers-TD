@@ -1,9 +1,9 @@
 [gd_scene load_steps=19 format=3 uid="uid://dxabgm606y34t"]
 
 [ext_resource type="Script" uid="uid://cywfekhkd33oi" path="res://scripts/ui/MainMenu.gd" id="1_jyhfs"]
-[ext_resource type="Texture2D" uid="uid://cedfvd6h35g2f" path="res://assets/Ui/portao.png" id="1_sugp2"]
-[ext_resource type="Texture2D" uid="uid://baptotmyjkkhr" path="res://assets/Ui/jogar.png" id="2_jyhfs"]
-[ext_resource type="Texture2D" uid="uid://bi84qq816g3uv" path="res://assets/Ui/sair.png" id="3_tbgi4"]
+[ext_resource type="Texture2D" uid="uid://l007f7n3js6p" path="res://assets/Ui/portao.png" id="1_sugp2"]
+[ext_resource type="Texture2D" uid="uid://d21h1jwvlrcms" path="res://assets/Ui/jogar.png" id="2_jyhfs"]
+[ext_resource type="Texture2D" uid="uid://cf68xc8oqka16" path="res://assets/Ui/sair.png" id="3_tbgi4"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_jkv2x"]
 

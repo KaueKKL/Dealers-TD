@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="WaveResource" load_steps=7 format=3 uid="uid://csqho8r1pagxy"]
+
+[ext_resource type="Script" uid="uid://0w76da5k4avk" path="res://scripts/core/WaveResource.gd" id="1_iet4x"]
+[ext_resource type="Script" uid="uid://doi6q3gyaom6y" path="res://scripts/core/WaveSquad.gd" id="2_756rw"]
+[ext_resource type="Resource" uid="uid://bfldsghwrrgue" path="res://resources/enemies/cliente_impaciente.tres" id="3_3rtan"]
+[ext_resource type="Resource" uid="uid://q0svq3q26hl7" path="res://resources/enemies/Fiscal_Governo.tres" id="4_756rw"]
+
+[sub_resource type="Resource" id="Resource_01h02"]
+script = ExtResource("2_756rw")
+enemy_type = ExtResource("3_3rtan")
+quantity = 4
+spawn_interval = 2.5
+delay_before = 1.0
+metadata/_custom_type_script = "uid://doi6q3gyaom6y"
+
+[sub_resource type="Resource" id="Resource_3rtan"]
+script = ExtResource("2_756rw")
+enemy_type = ExtResource("4_756rw")
+quantity = 2
+spawn_interval = 5.0
+delay_before = 0.0
+metadata/_custom_type_script = "uid://doi6q3gyaom6y"
+
+[resource]
+script = ExtResource("1_iet4x")
+wave_number = 1
+squads = Array[ExtResource("2_756rw")]([SubResource("Resource_01h02"), SubResource("Resource_3rtan")])
+metadata/_custom_type_script = "uid://0w76da5k4avk"

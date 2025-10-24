@@ -2,7 +2,6 @@
 extends CanvasLayer
 
 # --- Referências ---
-<<<<<<< HEAD
 @onready var comissoes_label: Label = $MarginContainer/VBoxContainer/VBoxContainer/Menu/MarginContainer2/ComissoesLabel
 @onready var vidas_label: Label = $MarginContainer/VBoxContainer/VBoxContainer/Menu/MarginContainer/VidasLabel
 @onready var wave_label: Label =$MarginContainer/VBoxContainer/VBoxContainer/HBoxContainer/WaveLabel
@@ -11,20 +10,13 @@ extends CanvasLayer
 @onready var build_vendedor_button = $MarginContainer/VBoxContainer/MarginContainer/Towers/Col2/Vendedor
 @onready var start_wave_button = $MarginContainer/VBoxContainer/VBoxContainer/Menu/ReferenceRect/StartWaveButton
 @onready var speed_button = $MarginContainer/VBoxContainer/VBoxContainer/Menu/ReferenceRect/SpeedButton
+@onready var build_seguranca_button = $MarginContainer/VBoxContainer/MarginContainer/Towers/Col2/Seguranca
+@onready var build_test_drive_button = $MarginContainer/VBoxContainer/MarginContainer/Towers/Col2/TestDrive
+@onready var build_lava_rapido_button = $MarginContainer/VBoxContainer/MarginContainer/Towers/Col1/LavaRapido
+@onready var build_financeiro_button = $MarginContainer/VBoxContainer/MarginContainer/Towers/Col1/Financeiro
 @onready var texture_one = preload("res://assets/Ui/1x.png")
 @onready var texture_two = preload("res://assets/Ui/2x.png")
-=======
-@onready var comissoes_label: Label = $MarginContainer/VBoxContainer/Menu/ComissoesLabel
-@onready var vidas_label: Label = $MarginContainer/VBoxContainer/Menu/VidasLabel
-@onready var wave_label: Label = $MarginContainer/VBoxContainer/Menu/WaveLabel
-@onready var build_oficina_button = $MarginContainer/VBoxContainer/Towers/Col1/Oficina
-@onready var build_vendedor_button = $MarginContainer/VBoxContainer/Towers/Col2/Vendedor
-@onready var build_seguranca_button = $MarginContainer/VBoxContainer/Towers/Col2/Seguranca
-@onready var build_test_drive_button = $MarginContainer/VBoxContainer/Towers/Col2/TestDrive
-@onready var build_lava_rapido_button = $MarginContainer/VBoxContainer/Towers/Col1/LavaRapido
-@onready var build_financeiro_button = $MarginContainer/VBoxContainer/Towers/Col1/Financeiro
-@onready var start_wave_button = $MarginContainer/VBoxContainer/Menu/VBoxContainer/StartWaveButton
-@onready var speed_button = $MarginContainer/VBoxContainer/Menu/VBoxContainer/SpeedButton
+
 
 # --- Dados (Pré-carregar para os botões) ---
 var oficina_data = preload("res://resources/towers/oficina.tres") # Vamos criar este resource depois
@@ -33,8 +25,6 @@ var seguranca_data = preload("res://resources/towers/seguranca.tres")
 var test_drive_data = preload("res://resources/towers/test_drive.tres")
 var lava_jato_data = preload("res://resources/towers/lava_jato.tres")
 var vendedor_data = preload("res://resources/towers/vendedor.tres")
->>>>>>> 46ef816e0cbdb10a2ba8fb87cd7efb78cad85398
-# var vendedor_data = preload("res://resources/towers/vendedor.tres") # Apenas exemplo
 
 func _ready():
 	wave_label2.text = str(WaveManager.predefined_waves.size())

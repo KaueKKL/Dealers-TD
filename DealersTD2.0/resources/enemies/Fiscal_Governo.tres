@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="EnemyResource" load_steps=5 format=3 uid="uid://q0svq3q26hl7"]
+
+[ext_resource type="Script" uid="uid://ddbrqicg8ta8o" path="res://scripts/core/EnemyResource.gd" id="1_k5lkr"]
+[ext_resource type="Script" uid="uid://bj121be4mk1co" path="res://scripts/core/VisualData.gd" id="2_4qdla"]
+[ext_resource type="Texture2D" uid="uid://c3u8w8vuepsdy" path="res://assets/Enemies/Fiscal do Governo/animations/walking-4-frames/east/frame_000.png" id="3_oblyd"]
+
+[sub_resource type="Resource" id="Resource_16vev"]
+script = ExtResource("2_4qdla")
+texture = ExtResource("3_oblyd")
+scale = Vector2(1, 1)
+offset = Vector2(0, 0)
+metadata/_custom_type_script = "uid://bj121be4mk1co"
+
+[resource]
+script = ExtResource("1_k5lkr")
+nome = "Fiscal do Governo"
+descricao = "Descrição do inimigo."
+categoria = "Fiscal"
+vida_maxima = 500.0
+velocidade = 45.0
+recompensa_comissao = 100
+visual_data = SubResource("Resource_16vev")
+metadata/_custom_type_script = "uid://ddbrqicg8ta8o"

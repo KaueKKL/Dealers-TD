@@ -1,10 +1,10 @@
-[gd_scene load_steps=15 format=3 uid="uid://bl5xhd0p6rlfg"]
+[gd_scene load_steps=15 format=3 uid="uid://deirkwq6fh73v"]
 
 [ext_resource type="Script" uid="uid://guddg4bpudta" path="res://scripts/ui/HUD.gd" id="1_kw0id"]
-[ext_resource type="Texture2D" uid="uid://f8jigrl1oug0" path="res://assets/Ui/fase.png" id="2_6ll6g"]
-[ext_resource type="Texture2D" uid="uid://p8i21jlgcjxs" path="res://assets/Ui/fundo.png" id="3_ig75s"]
-[ext_resource type="Texture2D" uid="uid://c6cfubwhhkuik" path="res://assets/Ui/play.png" id="4_ig75s"]
-[ext_resource type="Texture2D" uid="uid://r75dymstxaun" path="res://assets/Ui/2x.png" id="5_4ed8p"]
+[ext_resource type="Texture2D" uid="uid://bwi3nce8nqcnx" path="res://assets/Ui/fase.png" id="2_6ll6g"]
+[ext_resource type="Texture2D" uid="uid://b5xkrrc0unbd6" path="res://assets/Ui/fundo.png" id="3_ig75s"]
+[ext_resource type="Texture2D" uid="uid://copjjoxdgfpu1" path="res://assets/Ui/play.png" id="4_ig75s"]
+[ext_resource type="Texture2D" uid="uid://dsxfndceq8qbq" path="res://assets/Ui/2x.png" id="5_4ed8p"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_4ed8p"]
 bg_color = Color(0.0941176, 0.207843, 0.0941176, 0.498039)
@@ -183,7 +183,6 @@ layout_mode = 2
 text = "Oficina
 (50)"
 
-<<<<<<< HEAD
 [node name="LavaRapido" type="Button" parent="MarginContainer/VBoxContainer/MarginContainer/Towers/Col1"]
 custom_minimum_size = Vector2(80, 70)
 layout_mode = 2
@@ -192,10 +191,6 @@ text = "LRapd
 
 [node name="Financeiro" type="Button" parent="MarginContainer/VBoxContainer/MarginContainer/Towers/Col1"]
 custom_minimum_size = Vector2(80, 70)
-=======
-[node name="LavaRapido" type="Button" parent="MarginContainer/VBoxContainer/Towers/Col1"]
-custom_minimum_size = Vector2(120, 0)
->>>>>>> 46ef816e0cbdb10a2ba8fb87cd7efb78cad85398
 layout_mode = 2
 text = "Finan
 (50)"
@@ -215,15 +210,8 @@ layout_mode = 2
 text = "Vend
 (50)"
 
-<<<<<<< HEAD
 [node name="TestDrive" type="Button" parent="MarginContainer/VBoxContainer/MarginContainer/Towers/Col2"]
 custom_minimum_size = Vector2(80, 70)
 layout_mode = 2
 text = "TDriv
-=======
-[node name="TestDrive" type="Button" parent="MarginContainer/VBoxContainer/Towers/Col2"]
-custom_minimum_size = Vector2(120, 0)
-layout_mode = 2
-text = "Test Drive
->>>>>>> 46ef816e0cbdb10a2ba8fb87cd7efb78cad85398
 (50)"

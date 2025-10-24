@@ -24,7 +24,6 @@ WaveManager="*res://scenes/managers/WaveManager.tscn"
 TowerManager="*res://scenes/managers/TowerManager.tscn"
 EnemyManager="*res://scenes/managers/EnemyManager.tscn"
 ChaosEngine="*res://scripts/autoload/ChaosEngine.gd"
-ObjectPool="*res://scripts/utils/ObjectPool.gd"
 Logger="*res://scripts/utils/Logger.gd"
 SceneManager="*res://scripts/autoload/SceneManager.gd"
 

@@ -1,6 +1,7 @@
-[gd_scene load_steps=3 format=3 uid="uid://ex8bogttnjet"]
+[gd_scene load_steps=4 format=3 uid="uid://ex8bogttnjet"]
 
 [ext_resource type="Script" uid="uid://6mfmnl3lwc0k" path="res://scripts/gameplay/Projectile.gd" id="1_cjq15"]
+[ext_resource type="Texture2D" uid="uid://bynf7au6c8xch" path="res://assets/chave.png" id="2_nek0e"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_slbcu"]
 radius = 8.0
@@ -11,6 +12,9 @@ collision_mask = 2
 script = ExtResource("1_cjq15")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-0.5, 1.78814e-07)
+scale = Vector2(0.0253906, 0.0273437)
+texture = ExtResource("2_nek0e")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CircleShape2D_slbcu")
